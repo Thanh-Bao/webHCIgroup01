@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import "../CSS/NavigationBar.css"
 
 class NavigationBar extends Component {
   render() {
