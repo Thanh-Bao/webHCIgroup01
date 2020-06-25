@@ -42,7 +42,7 @@ class Diary extends Component {
         <div className="tab-content">
               {/* week 1 */}
           <div id="week1" className="container tab-pane active"><br />
-            <Table tienDo="Hoàn Thành" image="" congviecBao="Tìm hiểu về firebase và github" congviecHuan="Tìm hiểu về firebase và github" 
+            <Table tienDo="Hoàn Thành"  congviecBao="Tìm hiểu về firebase và github" congviecHuan="Tìm hiểu về firebase và github" 
             congviecDuong="Tìm hiểu về firebase và github" 
             congviecCuong="Tìm hiểu về firebase và github" congviecNghia="Tìm hiểu về firebase và github" week="TUẦN 1"></Table>
             <Image hinhanh="Hình Ảnh Tuần 1" image="image/week1.jpg"></Image>
@@ -53,10 +53,11 @@ class Diary extends Component {
     {/* week 2 */}
     <div id="week2" className="container tab-pane fade"><br />
            
-           <Table tienDo="Hoàn Thành" image="" congviecBao="" congviecCuong="" 
-           congviecDuong="" 
-           congviecNghia="" congviecHuan="" week="TUẦN 2" ></Table>
-            <Image hinhanh="Hình Ảnh Tuần 2" image="image/week2.jpg"></Image>
+           <Table tienDo="Hoàn Thành"  congviecBao="Tạo Trang About" congviecCuong="Tạo Trang About" 
+           congviecDuong="Tạo Trang About" 
+           congviecNghia="Tạo Trang About" congviecHuan="Tạo Trang About" ketquaBao="Đường link tới About" ketquaCuong="Đường link tới About" ketquaDuong="Đường link tới About" 
+           ketquaNghia="Đường link tới About" ketquaHuan="đường link tới About" week="TUẦN 2" ></Table>
+            <Image hinhanh="Hình Ảnh Tuần 2" image="image/week2.jpg" ></Image>
          
         </div>
 
@@ -64,9 +65,9 @@ class Diary extends Component {
     {/* week 3 */}
     <div id="week3" className="container tab-pane fade"><br />
            
-           <Table tienDo="Hoàn Thành" image="" congviecBao="" congviecCuong="" 
-           congviecDuong="" 
-           congviecNghia="" congviecHuan="" week="TUẦN 3"></Table>
+           <Table tienDo="Hoàn Thành" congviecBao="Thiết Kế Trang Forgot Password" congviecCuong="Thiết Kế trang Login" 
+           congviecDuong="Thiết kế trang login" 
+           congviecNghia="Thiết kế trang Register" congviecHuan="Thiết kế trang Register" week="TUẦN 3"></Table>
          
         </div>
         

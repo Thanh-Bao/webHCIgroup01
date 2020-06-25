@@ -25,7 +25,7 @@ class Table extends Component {
                             <td>Trần Thanh Bảo</td>
                             <td>{this.props.congviecBao}</td>
                             <td>
-                                {this.props.ketqua}
+                                {this.props.ketquaBao}
                             </td>
                             <td>Hoàn thành</td>
                     </tr>
@@ -35,7 +35,7 @@ class Table extends Component {
                             <td>Nguyễn Văn Cương</td>
                             <td>{this.props.congviecCuong}</td>
                             <td>
-                                {this.props.ketqua}
+                                {this.props.ketquaCuong}
                             </td>
                             <td>Hoàn thành</td>
                     </tr>
@@ -45,7 +45,7 @@ class Table extends Component {
                             <td>Lê Tuấn Dương</td>
                             <td>{this.props.congviecDuong}</td>
                             <td>
-                                {this.props.ketqua}
+                                {this.props.ketquaDuong}
                             </td>
                             <td>Hoàn thành</td>
                     </tr>
@@ -55,7 +55,7 @@ class Table extends Component {
                             <td>Hồ Quốc Nghĩa</td>
                             <td>{this.props.congviecNghia}</td>
                             <td>
-                                {this.props.ketqua}
+                                {this.props.ketquaNghia}
                             </td>
                             <td>Hoàn thành</td>
                     </tr>
@@ -66,7 +66,7 @@ class Table extends Component {
                             <td>Võ Đoàn Minh Huân</td>
                             <td>{this.props.congviecHuan}</td>
                             <td>
-                                {this.props.ketqua}
+                                {this.props.ketquaHuan}
                             </td>
                             <td>Hoàn thành</td>
                     </tr>
