@@ -101,10 +101,10 @@ class Footer extends Component {
                   <div className="empty-space marg-lg-b30" />
                   {/* TT-SOCAIL */}
                   <ul className="tt-socail">
-                    <li><a href="https://www.facebook.com/groups/605810996700128"><i className="fa fa-facebook" aria-hidden="true" /></a></li>
-                    <li><a href="#"><i className="fa fa-linkedin" aria-hidden="true" /></a></li>
-                    <li><a href="#"><i className="fa fa-twitter" aria-hidden="true" /></a></li>
-                    <li><a href="#"><i className="fa fa-google-plus" aria-hidden="true" /></a></li>
+                    <li><a href="https://www.facebook.com/groups/605810996700128"><i className="fab fa-facebook" aria-hidden="true" /></a></li>
+                    <li><a href="#"><i className="fab fa-linkedin" aria-hidden="true" /></a></li>
+                    <li><a href="#"><i className="fab fa-twitter" aria-hidden="true" /></a></li>
+                    <li><a href="#"><i className="fab fa-google-plus" aria-hidden="true" /></a></li>
                   </ul>
                 </div>
               </div>
