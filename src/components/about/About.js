@@ -36,7 +36,7 @@ class About extends Component {
                     name="Nguyễn Văn Cương"
                     MSSV="18130024"
                     classes="DH18DTC"
-                    linkWeb="#"
+                    linkWeb="https://cuongngn.web.app/"
                     facebook="https://www.facebook.com/tri.can.520"
                     youtube="https://www.youtube.com/"
                   />

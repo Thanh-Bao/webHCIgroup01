@@ -116,3 +116,44 @@ body {
 .mb-80 {
   margin-bottom: 80px;
 }
+.centerImage{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 55px;
+}
+.size-hr{
+  display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+}
+.size-tab{
+  width: 90px;
+ height: 50px;
+ text-align: center;
+}
+.space-tab{
+  margin-top: -0.5cm;
+}
+.space-table{
+  margin-top: 1.5cm;
+}
+th{
+  background-color: aqua;
+}
+.color-pills{
+  color: #ffffff;
+}
+.space-bottom{
+  margin-bottom: 2cm;
+}
+.space-week-table{
+  margin-top: 0.7cm;
+}
+.center-tabs{
+  margin-left:200px;
+ 
+}
