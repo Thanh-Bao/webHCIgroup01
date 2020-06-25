@@ -16,7 +16,7 @@ class About extends Component {
                 <div className="col-12">
                   <div className="Leader_Card_profile">
                     <Card_profile
-                      avatar="media/about/avatarBao.png"
+                      avatar="  media/avatar/avatarBao.png"
                       name="Trần Thanh Bảo"
                       MSSV="18130017"
                       classes="DH18DTC"
@@ -32,7 +32,7 @@ class About extends Component {
               <div className="row">
                 <div className="col-lg-6 col-sm-6 ">
                   <Card_profile
-                    avatar="media/about/avatarCuong.png"
+                    avatar="  media/avatar/avatarCuong.png"
                     name="Nguyễn Văn Cương"
                     MSSV="18130024"
                     classes="DH18DTC"
@@ -43,7 +43,7 @@ class About extends Component {
                 </div>
                 <div className="col-lg-6 col-sm-6 ">
                   <Card_profile
-                    avatar="media/about/avatarDuong.png"
+                    avatar="  media/avatar/avatarDuong.png"
                     name="Lê Tuấn Dương"
                     MSSV="18130052"
                     classes="DH18DTA"
@@ -56,7 +56,7 @@ class About extends Component {
               <div className="row">
                 <div className="col-lg-6 col-sm-6">
                   <Card_profile
-                    avatar="media/about/avatarNghia.png"
+                    avatar="  media/avatar/avatarNghia.png"
                     name="Hồ Quốc Nghĩa"
                     MSSV="18130150"
                     classes="DH18DTA"
@@ -67,7 +67,7 @@ class About extends Component {
                 </div>
                 <div className="col-lg-6 col-sm-6">
                   <Card_profile
-                    avatar="media/about/avatarHuan.jpg"
+                    avatar="  media/avatar/avatarHuan.jpg"
                     name="Võ Đoàn Minh Huân"
                     MSSV="18130089"
                     classes="DH18DTA"

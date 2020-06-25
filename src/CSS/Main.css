@@ -36,7 +36,7 @@ body {
   -webkit-transition-duration: 800ms;
   -o-transition-duration: 800ms;
   transition-duration: 800ms;
-  background-color:#ccc;
+  background-color:rgba(90, 86, 86, 0.198);
   padding: 80px 30px 50px;
   border-radius: 10px;
   box-shadow: 3px 0 15px -1px rgba(0, 0, 0, 0.15);
