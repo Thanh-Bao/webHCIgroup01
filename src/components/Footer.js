@@ -15,7 +15,7 @@ class Footer extends Component {
                     <img className="img-responsive" src="https://www.freelogodesign.org/img/logo-ex-4.png" style={{ width: '100px' }} alt="" />
                   </a>
                   <div className="simple-text dark padding-sm">
-                    <p>Totam rem aperiam, eaque ipsa quae ab illo inv ent ore veritatis et quasi architecto beatae vitae dict eaque ipsa quae ab.</p>
+                    <p>We are group 1 and we will do our best.</p>
                   </div>
                   <div className="empty-space xs-25 sm-25" />
                 </div>
