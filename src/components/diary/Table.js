@@ -10,8 +10,8 @@ class Table extends Component {
                 <table class="table table-bordered">
                     <thead>
                         <tr>
-                            <th className="text-center">STT</th>
-                            <th className="text-center">MSSV</th>
+                            <th className="text-center" data-toggle="tooltip" title="Số thứ tự">STT</th>
+                            <th className="text-center" data-toggle="tooltip" title="Mã số sinh viên">MSSV</th>
                             <th className="text-center">Họ và tên</th>
                             <th className="text-center">Công việc được giao</th>
                             <th className="text-center">Kết quả</th>
