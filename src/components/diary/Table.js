@@ -6,8 +6,8 @@ class Table extends Component {
         return (
             <div className="space-table">
                 <h3 className="text-center"><b>{this.props.week}</b></h3>
-                <div class="table-responsive space-week-table text-center">
-                <table class="table table-bordered">
+                <div className="table-responsive space-week-table text-center">
+                <table className="table table-bordered">
                     <thead>
                         <tr>
                             <th className="text-center" data-toggle="tooltip" title="Số thứ tự">STT</th>

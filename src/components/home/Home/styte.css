@@ -20,7 +20,7 @@ html {
             align-items: center;
     height: 100vh;
     background-image: -webkit-gradient(linear, right top, left bottom, from(#f2e3c6), to(#a7a1a5));
-    background-image: linear-gradient(to left bottom, #f2e3c6 0%, #a1a7a2 100%);
+    background-image: linear-gradient(to left bottom, #c6f2d3 0%, #6bec60 100%);
     overflow: hidden;
     top: 60px;
   }

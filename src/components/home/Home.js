@@ -6,6 +6,7 @@ class Home extends Component {
 
         return (
             <div>
+
                 <div className="cont">
                     <div className="mouse" />
                     <div className="app">
@@ -16,7 +17,7 @@ class Home extends Component {
                             </div>
                         </div>
                         <div className="app__img">
-                            <img onmousedown="return false" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/537051/whiteTest4.png" alt="city" />
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/537051/whiteTest4.png" alt="" />
                         </div>
                         <div className="app__text app__text--1">
                             <div className="app__text-line app__text-line--4">Welcome </div>
@@ -38,8 +39,8 @@ class Home extends Component {
                         </ul>
                     </div>
                 </div>
-            </div>
 
+            </div>
         );
     }
 }
