@@ -64,7 +64,7 @@ class Footer extends Component {
                     >
                       <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4"  style={{ color: 'white' }}>
                         <span>
-                          <i class="fas fa-trophy"></i> Result
+                          <i className="fas fa-trophy"></i> Result
                           </span>
                       </li>
                     </NavLink>
