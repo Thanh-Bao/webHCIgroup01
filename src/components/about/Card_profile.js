@@ -4,7 +4,7 @@ import "../../CSS/about/Card_profile_About.css";
 class Card_profile extends Component {
   render() {
     return (
-      <div className="our-team">
+      <div className="our-team" style={{width: this.props.width+ '%'}}>
         <div className="picture">
           <img
             className="img-fluid"

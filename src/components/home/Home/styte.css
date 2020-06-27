@@ -19,7 +19,7 @@ html {
     -webkit-box-align: center;
             align-items: center;
     height: 100vh;
-    background-image: -webkit-gradient(linear, right top, left bottom, from(#f2e3c6), to(#a7a1a5));
+    background-image: -webkit-gradient(linear, right top, left bottom, from(#f1a40a), to(#a7a1a5));
     background-image: linear-gradient(to left bottom, #f2e3c6 0%, #a1a7a2 100%);
     overflow: hidden;
     top: 60px;
@@ -51,11 +51,11 @@ html {
     left: 0;
   }
   .app__bgimg-image--1 {
-    background: url("/public/image/week1.jpg") center center no-repeat;
+    background: url("/image/week1.jpg") center center no-repeat;
     background-size: cover;
   }
   .app__bgimg-image--2 {
-    background: url("/public/image/week2.jpg") center center no-repeat;
+    background: url("/image/week2.jpg") center center no-repeat;
     background-size: cover;
     opacity: 0;
     -webkit-transition: opacity 0ms 300ms;

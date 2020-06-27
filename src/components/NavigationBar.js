@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import "../CSS/NavigationBar.css"
-
+import "../CSS/NavigationBar.css";
 class NavigationBar extends Component {
   render() {
     return (
@@ -33,6 +32,10 @@ class NavigationBar extends Component {
                     id="navbarSupportedContent"
                   >
                     <ul className="navbar-nav ml-auto py-4 py-md-0">
+                      <form >
+                        <input type="search" placeholder="Search" />
+                      </form>
+
                       <NavLink
                         className="nav-link"
                         to="/home"
@@ -41,7 +44,7 @@ class NavigationBar extends Component {
                         <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                           <span>
                             <i className="fa fa-home"></i> Home
-                        </span>
+                          </span>
                         </li>
                       </NavLink>
 
@@ -53,7 +56,7 @@ class NavigationBar extends Component {
                         <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                           <span>
                             <i className="fas fa-history"></i> Diary
-                        </span>
+                          </span>
                         </li>
                       </NavLink>
 
@@ -65,7 +68,7 @@ class NavigationBar extends Component {
                         <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                           <span>
                             <i className="far fa-address-card"></i> About
-                        </span>
+                          </span>
                         </li>
                       </NavLink>
 
@@ -77,12 +80,9 @@ class NavigationBar extends Component {
                         <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                           <span>
                             <i className="fas fa-trophy"></i> Result
-                        </span>
+                          </span>
                         </li>
                       </NavLink>
-                      <form>
-                        <input type="search" placeholder="Search" />
-                      </form>
                     </ul>
                   </div>
                 </nav>
