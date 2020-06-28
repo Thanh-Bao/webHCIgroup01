@@ -32,10 +32,6 @@ class NavigationBar extends Component {
                     id="navbarSupportedContent"
                   >
                     <ul className="navbar-nav ml-auto py-4 py-md-0">
-                      <form >
-                        <input type="search" placeholder="Search" />
-                      </form>
-
                       <NavLink
                         className="nav-link"
                         to="/home"
@@ -83,6 +79,23 @@ class NavigationBar extends Component {
                           </span>
                         </li>
                       </NavLink>
+
+                      <form>
+                        <input type="search" placeholder="Search" />
+                      </form>
+
+                      <a
+                        href="https://group01-tintucbatdongsan.tk"
+                        target="_blank"
+                        style={{ "text-decoration": "none" }}
+                      >
+                        <div className="btnProject ml-3">
+                          <span>Project</span>
+                          <div className="dot"></div>
+                        </div>
+                      </a>
+
+                      
                     </ul>
                   </div>
                 </nav>

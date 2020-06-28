@@ -1,7 +1,5 @@
-
-
 .start-header {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 17px;
   opacity: 1;
   transform: translateY(0);
@@ -23,12 +21,12 @@
 }
 .navigation-wrap {
   position: fixed;
-  width: 100%; 
+  width: 100%;
   top: 0;
   left: 0;
   z-index: 1000;
   -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out; 
+  transition: all 0.3s ease-out;
 }
 .navbar {
   padding: 0;
@@ -82,14 +80,12 @@
   border-color: transparent;
 }
 
-
-
 .nav-link {
   color: #212121 !important;
   font-weight: 500;
   transition: all 200ms linear;
 }
- .nav-item:hover  {
+.nav-item:hover {
   color: #0716f5 !important;
 }
 .nav-item.active .nav-link {
@@ -148,10 +144,6 @@
   z-index: 20;
 }
 
-
-
-
-
 /* #Media
 ================================================== */
 
@@ -173,7 +165,6 @@
     background-color: #000;
     vertical-align: 0;
   }
-  
 }
 
 /* #search
@@ -181,7 +172,7 @@
 input {
   outline: none;
 }
-input[type=search] {
+input[type="search"] {
   -webkit-appearance: textfield;
   -webkit-box-sizing: content-box;
   font-family: inherit;
@@ -189,34 +180,33 @@ input[type=search] {
 }
 input::-webkit-search-decoration,
 input::-webkit-search-cancel-button {
-  display: none; 
+  display: none;
 }
 
-
-input[type=search] {
-  background: #ededed  no-repeat 9px center url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png);
-  border: solid 1px #ccc;
+input[type="search"] {
+  background: #ffffff no-repeat 9px center
+    url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png);
+  border: solid 2px rgb(32, 31, 31);
   padding: 9px 10px 9px 32px;
   width: 55px;
-  
+
   -webkit-border-radius: 10em;
   -moz-border-radius: 10em;
   border-radius: 10em;
-  
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  transition: all .5s;
-}
-input[type=search]:focus {
-  width: 130px;
-  background-color: #fff;
-  border-color: #66CC75;
-  
-  -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
-  -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
-  box-shadow: 0 0 5px rgba(109,207,246,.5);
-}
 
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+input[type="search"]:focus {
+  width: 130px;
+  background: linear-gradient(to left, #0ebeaf75 1%, #33eb135e 100%);
+  border-color: #000000;
+
+  -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, 0.5);
+  -moz-box-shadow: 0 0 5px rgba(109, 207, 246, 0.5);
+  box-shadow: 0 0 5px rgba(109, 207, 246, 0.5);
+}
 
 input:-moz-placeholder {
   color: #999;
@@ -224,9 +214,83 @@ input:-moz-placeholder {
 input::-webkit-input-placeholder {
   color: #999;
 }
-form{
+form {
   padding-left: 20px;
 }
 
+/* ///////////////// button project ////////////////// */
 
+:root {
+  --bg: #3c465c;
+  --primary: #131313;
+  --solid: rgb(255, 244, 241);
+  --btn-w: 7em;
+  --dot-w: calc(var(--btn-w) * 0.25);
+  --tr-X: calc(var(--btn-w) - var(--dot-w));
+}
+* {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
 
+.btnProject {
+  background :  linear-gradient(to left, #01f2fa 1%, #0432ffea 100%);
+  position: relative;
+  margin: 0 auto;
+  width: var(--btn-w);
+  color: var(--primary);
+  border: 0.2em solid var(--primary);
+  border-radius: 5em;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.9em;
+  line-height: 2.7em;
+  cursor: pointer;
+}
+.dot {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: var(--dot-w);
+  height: 100%;
+  border-radius: 100%;
+  transition: all 300ms ease;
+  display: none;
+}
+.dot:after {
+  content: "";
+  position: absolute;
+  left: calc(50% - 0.4em);
+  top: -0.4em;
+  height: 0.8em;
+  width: 0.8em;
+  background: var(--primary);
+  border-radius: 1em;
+  border: 0.25em solid var(--solid);
+  box-shadow: 0 0 0.7em var(--solid), 0 0 2em var(--primary);
+}
+.btnProject .dot,
+.btnProject.dot {
+  animation: atom 2s infinite linear;
+  display: block;
+}
+@keyframes atom {
+  0% {
+    transform: translateX(0) rotate(0);
+  }
+  30% {
+    transform: translateX(var(--tr-X)) rotate(0);
+  }
+  50% {
+    transform: translateX(var(--tr-X)) rotate(180deg);
+  }
+  80% {
+    transform: translateX(0) rotate(180deg);
+  }
+  100% {
+    transform: translateX(0) rotate(360deg);
+  }
+}
