@@ -30,6 +30,7 @@ class Home extends Component {
             <div className="app__text app__text--2">
               <div className="app__text-line app__text-line--4"></div>
               <div className="app__text-line app__text-line--3"></div>
+              <button className="app__text-line app__text-line--3 bubbly-button" src="#">Project Nhóm 1</button>
               <div className="app__text-line app__text-line--2"></div>
               <div className="app__text-line app__text-line--1">
                 <img src="" alt="" />
