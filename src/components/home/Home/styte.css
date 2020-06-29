@@ -1,546 +1,101 @@
-html {
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-}
-
-.cont {
-  position: relative;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
-  height: 100vh;
-  background-image: -webkit-gradient(
-    linear,
-    right top,
-    left bottom,
-    from(#f1a40a),
-    to(#a7a1a5)
-  );
-  background-image: linear-gradient(to left bottom, #f2e3c6 0%, #a1a7a2 100%);
-  background-image: -webkit-gradient(
-    linear,
-    right top,
-    left bottom,
-    from(#f2e3c6),
-    to(#a7a1a5)
-  );
-  background-image: linear-gradient(to left bottom, #c6f2d3 0%, #6bec60 100%);
-  overflow: hidden;
-  top: 60px;
-}
-
-.app {
-  position: relative;
-  min-width: 850px;
-  height: 540px;
-  box-shadow: 0 0 60px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
-}
-.app__bgimg {
-  position: absolute;
-  top: 0;
-  left: -2.5%;
-  width: 105%;
+html,
+body {
   height: 100%;
-  -webkit-transition: -webkit-transform 3.5s 770ms;
-  transition: -webkit-transform 3.5s 770ms;
-  transition: transform 3.5s 770ms;
-  transition: transform 3.5s 770ms, -webkit-transform 3.5s 770ms;
 }
-.app__bgimg-image {
-  position: absolute;
+
+.carousel,
+.item,
+.active {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+  background: #000;
+}
+
+.carousel-caption {
+  padding-bottom: 80px;
+}
+
+h2 {
+  font-size: 60px;
+}
+p {
+  padding: 10px;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
   width: 100%;
   height: 100%;
-  top: 0;
-  left: 0;
-}
-.app__bgimg-image--1 {
-  background: url("/image/week1.jpg") center center no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   background-size: cover;
-}
-.app__bgimg-image--2 {
-  background: url("/image/week2.jpg") center center no-repeat;
-  background-size: cover;
-  opacity: 0;
-  -webkit-transition: opacity 0ms 300ms;
-  transition: opacity 0ms 300ms;
-  will-change: opacity;
-}
-.app__text {
-  position: absolute;
-  right: 165px;
-  top: 150px;
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  z-index: 1;
-}
-.app__text-line {
-  -webkit-transition: opacity 750ms 500ms, -webkit-transform 1500ms 400ms;
-  transition: opacity 750ms 500ms, -webkit-transform 1500ms 400ms;
-  transition: transform 1500ms 400ms, opacity 750ms 500ms;
-  transition: transform 1500ms 400ms, opacity 750ms 500ms,
-    -webkit-transform 1500ms 400ms;
-  will-change: transform, opacity;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-.app__text-line--4 {
-  -webkit-transition: opacity 1500ms 1500ms, -webkit-transform 1500ms 1500ms;
-  transition: opacity 1500ms 1500ms, -webkit-transform 1500ms 1500ms;
-  transition: transform 1500ms 1500ms, opacity 1500ms 1500ms;
-  transition: transform 1500ms 1500ms, opacity 1500ms 1500ms,
-    -webkit-transform 1500ms 1500ms;
-}
-.app__text-line--3 {
-  -webkit-transition: opacity 1500ms 1750ms, -webkit-transform 1500ms 1600ms;
-  transition: opacity 1500ms 1750ms, -webkit-transform 1500ms 1600ms;
-  transition: transform 1500ms 1600ms, opacity 1500ms 1750ms;
-  transition: transform 1500ms 1600ms, opacity 1500ms 1750ms,
-    -webkit-transform 1500ms 1600ms;
-}
-.app__text-line--2 {
-  -webkit-transition: opacity 1500ms 2000ms, -webkit-transform 1500ms 1700ms;
-  transition: opacity 1500ms 2000ms, -webkit-transform 1500ms 1700ms;
-  transition: transform 1500ms 1700ms, opacity 1500ms 2000ms;
-  transition: transform 1500ms 1700ms, opacity 1500ms 2000ms,
-    -webkit-transform 1500ms 1700ms;
-}
-.app__text-line--1 {
-  -webkit-transition: opacity 1500ms 2250ms, -webkit-transform 1500ms 1800ms;
-  transition: opacity 1500ms 2250ms, -webkit-transform 1500ms 1800ms;
-  transition: transform 1500ms 1800ms, opacity 1500ms 2250ms;
-  transition: transform 1500ms 1800ms, opacity 1500ms 2250ms,
-    -webkit-transform 1500ms 1800ms;
-}
-.app__text-line--4 {
-  font-size: 50px;
-  font-weight: 700;
-  color: #0a101d;
-}
-.app__text-line--3 {
-  font-size: 40px;
-  font-weight: 300;
-  color: #0099cc;
-}
-.app__text-line--2 {
-  margin-top: 10px;
-  font-size: 14px;
-  font-weight: 500;
-  color: #0099cc;
-}
-.app__text-line--1 {
-  margin-top: 15px;
-  font-size: 40px;
-}
-.app__text-line--1 img {
-  width: 50px;
-}
-.app__text--1 .app__text-line {
-  -webkit-transform: translate3d(0, -125px, 0);
-  transform: translate3d(0, -125px, 0);
-  opacity: 0;
-}
-.app__text--2 {
-  right: initial;
-  top: 250px;
-  left: 80px;
-  z-index: -1;
-  -webkit-transition: z-index 1500ms;
-  transition: z-index 1500ms;
-}
-.app__text--2 .app__text-line--4 {
-  opacity: 0;
-  -webkit-transition: opacity 400ms 125ms, -webkit-transform 1500ms -75ms;
-  transition: opacity 400ms 125ms, -webkit-transform 1500ms -75ms;
-  transition: transform 1500ms -75ms, opacity 400ms 125ms;
-  transition: transform 1500ms -75ms, opacity 400ms 125ms,
-    -webkit-transform 1500ms -75ms;
-}
-.app__text--2 .app__text-line--3 {
-  opacity: 0;
-  -webkit-transition: opacity 400ms 200ms, -webkit-transform 1500ms 0ms;
-  transition: opacity 400ms 200ms, -webkit-transform 1500ms 0ms;
-  transition: transform 1500ms 0ms, opacity 400ms 200ms;
-  transition: transform 1500ms 0ms, opacity 400ms 200ms,
-    -webkit-transform 1500ms 0ms;
-}
-.app__text--2 .app__text-line--2 {
-  opacity: 0;
-  -webkit-transition: opacity 400ms 275ms, -webkit-transform 1500ms 75ms;
-  transition: opacity 400ms 275ms, -webkit-transform 1500ms 75ms;
-  transition: transform 1500ms 75ms, opacity 400ms 275ms;
-  transition: transform 1500ms 75ms, opacity 400ms 275ms,
-    -webkit-transform 1500ms 75ms;
-}
-.app__text--2 .app__text-line--1 {
-  opacity: 0;
-  -webkit-transition: opacity 400ms 350ms, -webkit-transform 1500ms 150ms;
-  transition: opacity 400ms 350ms, -webkit-transform 1500ms 150ms;
-  transition: transform 1500ms 150ms, opacity 400ms 350ms;
-  transition: transform 1500ms 150ms, opacity 400ms 350ms,
-    -webkit-transform 1500ms 150ms;
-}
-.app__img {
-  position: absolute;
-  -webkit-transform: translate3d(0, -750px, 0);
-  transform: translate3d(0, -750px, 0);
-  width: 850px;
-  height: 100%;
-  -webkit-transition: -webkit-transform 3s cubic-bezier(0.6, 0.13, 0.31, 1.02);
-  transition: -webkit-transform 3s cubic-bezier(0.6, 0.13, 0.31, 1.02);
-  transition: transform 3s cubic-bezier(0.6, 0.13, 0.31, 1.02);
-  transition: transform 3s cubic-bezier(0.6, 0.13, 0.31, 1.02),
-    -webkit-transform 3s cubic-bezier(0.6, 0.13, 0.31, 1.02);
-  will-change: transform;
-}
-.app__img img {
-  min-width: 100%;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  -o-background-size: cover;
+  opacity: 0.6;
 }
 
-.initial .app__img {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-.initial .app__text--1 .app__text-line--1 {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  -webkit-transition: opacity 400ms 1600ms, -webkit-transform 1500ms 1400ms;
-  transition: opacity 400ms 1600ms, -webkit-transform 1500ms 1400ms;
-  transition: transform 1500ms 1400ms, opacity 400ms 1600ms;
-  transition: transform 1500ms 1400ms, opacity 400ms 1600ms,
-    -webkit-transform 1500ms 1400ms;
-  opacity: 1;
-}
-.initial .app__text--1 .app__text-line--2 {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  -webkit-transition: opacity 400ms 1675ms, -webkit-transform 1500ms 1475ms;
-  transition: opacity 400ms 1675ms, -webkit-transform 1500ms 1475ms;
-  transition: transform 1500ms 1475ms, opacity 400ms 1675ms;
-  transition: transform 1500ms 1475ms, opacity 400ms 1675ms,
-    -webkit-transform 1500ms 1475ms;
-  opacity: 1;
-}
-.initial .app__text--1 .app__text-line--3 {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  -webkit-transition: opacity 400ms 1750ms, -webkit-transform 1500ms 1550ms;
-  transition: opacity 400ms 1750ms, -webkit-transform 1500ms 1550ms;
-  transition: transform 1500ms 1550ms, opacity 400ms 1750ms;
-  transition: transform 1500ms 1550ms, opacity 400ms 1750ms,
-    -webkit-transform 1500ms 1550ms;
-  opacity: 1;
-}
-.initial .app__text--1 .app__text-line--4 {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  -webkit-transition: opacity 400ms 1825ms, -webkit-transform 1500ms 1625ms;
-  transition: opacity 400ms 1825ms, -webkit-transform 1500ms 1625ms;
-  transition: transform 1500ms 1625ms, opacity 400ms 1825ms;
-  transition: transform 1500ms 1625ms, opacity 400ms 1825ms,
-    -webkit-transform 1500ms 1625ms;
-  opacity: 1;
-}
-
-.active .app__bgimg {
-  -webkit-transform: translate3d(10px, 0, 0) scale(1.05);
-  transform: translate3d(10px, 0, 0) scale(1.05);
-  -webkit-transition: -webkit-transform 5s 850ms ease-in-out;
-  transition: -webkit-transform 5s 850ms ease-in-out;
-  transition: transform 5s 850ms ease-in-out;
-  transition: transform 5s 850ms ease-in-out,
-    -webkit-transform 5s 850ms ease-in-out;
-}
-.active .app__bgimg .app__bgimg-image--2 {
-  opacity: 1;
-  -webkit-transition: opacity 0ms 1500ms;
-  transition: opacity 0ms 1500ms;
-}
-.active .app__img {
-  -webkit-transition: -webkit-transform 3s cubic-bezier(0.6, 0.13, 0.31, 1.02);
-  transition: -webkit-transform 3s cubic-bezier(0.6, 0.13, 0.31, 1.02);
-  transition: transform 3s cubic-bezier(0.6, 0.13, 0.31, 1.02);
-  transition: transform 3s cubic-bezier(0.6, 0.13, 0.31, 1.02),
-    -webkit-transform 3s cubic-bezier(0.6, 0.13, 0.31, 1.02);
-  -webkit-transform: translate3d(0, -1410px, 0);
-  transform: translate3d(0, -1410px, 0);
-}
-.active .app__text--1 {
-  z-index: -1;
-  -webkit-transition: z-index 0ms 1500ms;
-  transition: z-index 0ms 1500ms;
-}
-.active .app__text--1 .app__text-line--1 {
-  -webkit-transform: translate3d(0, -125px, 0);
-  transform: translate3d(0, -125px, 0);
-  -webkit-transition: opacity 400ms 500ms, -webkit-transform 1500ms 300ms;
-  transition: opacity 400ms 500ms, -webkit-transform 1500ms 300ms;
-  transition: transform 1500ms 300ms, opacity 400ms 500ms;
-  transition: transform 1500ms 300ms, opacity 400ms 500ms,
-    -webkit-transform 1500ms 300ms;
-  opacity: 0;
-}
-.active .app__text--1 .app__text-line--2 {
-  -webkit-transform: translate3d(0, -125px, 0);
-  transform: translate3d(0, -125px, 0);
-  -webkit-transition: opacity 400ms 575ms, -webkit-transform 1500ms 375ms;
-  transition: opacity 400ms 575ms, -webkit-transform 1500ms 375ms;
-  transition: transform 1500ms 375ms, opacity 400ms 575ms;
-  transition: transform 1500ms 375ms, opacity 400ms 575ms,
-    -webkit-transform 1500ms 375ms;
-  opacity: 0;
-}
-.active .app__text--1 .app__text-line--3 {
-  -webkit-transform: translate3d(0, -125px, 0);
-  transform: translate3d(0, -125px, 0);
-  -webkit-transition: opacity 400ms 650ms, -webkit-transform 1500ms 450ms;
-  transition: opacity 400ms 650ms, -webkit-transform 1500ms 450ms;
-  transition: transform 1500ms 450ms, opacity 400ms 650ms;
-  transition: transform 1500ms 450ms, opacity 400ms 650ms,
-    -webkit-transform 1500ms 450ms;
-  opacity: 0;
-}
-.active .app__text--1 .app__text-line--4 {
-  -webkit-transform: translate3d(0, -125px, 0);
-  transform: translate3d(0, -125px, 0);
-  -webkit-transition: opacity 400ms 725ms, -webkit-transform 1500ms 525ms;
-  transition: opacity 400ms 725ms, -webkit-transform 1500ms 525ms;
-  transition: transform 1500ms 525ms, opacity 400ms 725ms;
-  transition: transform 1500ms 525ms, opacity 400ms 725ms,
-    -webkit-transform 1500ms 525ms;
-  opacity: 0;
-}
-.active .app__text--2 {
-  z-index: 1;
-}
-.active .app__text--2 .app__text-line--1 {
-  -webkit-transform: translate3d(0, -125px, 0);
-  transform: translate3d(0, -125px, 0);
-  -webkit-transition: opacity 1300ms 1300ms, -webkit-transform 2500ms 1100ms;
-  transition: opacity 1300ms 1300ms, -webkit-transform 2500ms 1100ms;
-  transition: transform 2500ms 1100ms, opacity 1300ms 1300ms;
-  transition: transform 2500ms 1100ms, opacity 1300ms 1300ms,
-    -webkit-transform 2500ms 1100ms;
-  opacity: 1;
-}
-.active .app__text--2 .app__text-line--2 {
-  -webkit-transform: translate3d(0, -125px, 0);
-  transform: translate3d(0, -125px, 0);
-  -webkit-transition: opacity 1300ms 1575ms, -webkit-transform 2500ms 1175ms;
-  transition: opacity 1300ms 1575ms, -webkit-transform 2500ms 1175ms;
-  transition: transform 2500ms 1175ms, opacity 1300ms 1575ms;
-  transition: transform 2500ms 1175ms, opacity 1300ms 1575ms,
-    -webkit-transform 2500ms 1175ms;
-  opacity: 1;
-}
-.active .app__text--2 .app__text-line--3 {
-  -webkit-transform: translate3d(0, -125px, 0);
-  transform: translate3d(0, -125px, 0);
-  -webkit-transition: opacity 1300ms 1850ms, -webkit-transform 2500ms 1250ms;
-  transition: opacity 1300ms 1850ms, -webkit-transform 2500ms 1250ms;
-  transition: transform 2500ms 1250ms, opacity 1300ms 1850ms;
-  transition: transform 2500ms 1250ms, opacity 1300ms 1850ms,
-    -webkit-transform 2500ms 1250ms;
-  opacity: 1;
-}
-.active .app__text--2 .app__text-line--4 {
-  -webkit-transform: translate3d(0, -125px, 0);
-  transform: translate3d(0, -125px, 0);
-  -webkit-transition: opacity 1300ms 2125ms, -webkit-transform 2500ms 1325ms;
-  transition: opacity 1300ms 2125ms, -webkit-transform 2500ms 1325ms;
-  transition: transform 2500ms 1325ms, opacity 1300ms 2125ms;
-  transition: transform 2500ms 1325ms, opacity 1300ms 2125ms,
-    -webkit-transform 2500ms 1325ms;
-  opacity: 1;
-}
-
-.mouse {
-  position: relative;
-  margin-right: 20px;
-  min-width: 50px;
-  height: 80px;
-  border-radius: 30px;
-  border: 5px solid rgba(255, 255, 255, 0.8);
-}
-.mouse:after {
-  content: "";
-  position: absolute;
-  top: 20px;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0);
-  transform: translate(-50%, 0);
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: #fff;
-  -webkit-animation: scroll 1s infinite alternate;
-  animation: scroll 1s infinite alternate;
-}
-@-webkit-keyframes scroll {
-  100% {
-    -webkit-transform: translate(-50%, 15px);
-    transform: translate(-50%, 15px);
-  }
-}
-@keyframes scroll {
-  100% {
-    -webkit-transform: translate(-50%, 15px);
-    transform: translate(-50%, 15px);
-  }
-}
-.pages {
-  margin-left: 20px;
-}
-.pages__list {
-  list-style-type: none;
-}
-.pages__item {
-  position: relative;
-  margin-bottom: 10px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  border: 3px solid #fff;
-  cursor: pointer;
-}
-.pages__item:after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%) scale(0, 0);
-  transform: translate(-50%, -50%) scale(0, 0);
-  width: 75%;
-  height: 75%;
-  border-radius: 50%;
-  background-color: #fff;
-  opacity: 0;
-  -webkit-transition: 500ms;
-  transition: 500ms;
-}
-.pages__item:hover:after {
-  -webkit-transform: translate(-50%, -50%) scale(1, 1);
-  transform: translate(-50%, -50%) scale(1, 1);
-  opacity: 1;
-}
-
-.page__item-active:after {
-  -webkit-transform: translate(-50%, -50%) scale(1, 1);
-  transform: translate(-50%, -50%) scale(1, 1);
-  opacity: 1;
-}
-
-.icon-link {
-  position: absolute;
-  left: 5px;
-  bottom: 5px;
-  width: 50px;
-}
-.icon-link img {
-  width: 100%;
-  vertical-align: top;
-}
-.icon-link--twitter {
-  left: auto;
-  right: 5px;
-}
-
-
-.bubbly-button {
-  font-family: 'Helvetica', 'Arial', sans-serif;
-  display: inline-block;
-  font-size: 1em;
-  padding: 1em 2em;
-  margin-top: 100px;
-  margin-bottom: 60px;
-  -webkit-appearance: none;
-  appearance: none;
-  background-color: hsl(133, 78%, 66%);
+/**
+ * Button
+ */
+.btn-transparent {
+  background: transparent;
   color: #fff;
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
-  position: relative;
-  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
-  box-shadow: 0 2px 25px #00ff7381;
+  border: 2px solid #fff;
 }
-.bubbly-button:focus {
-  outline: 0;
-}
-.bubbly-button:before, .bubbly-button:after {
-  position: absolute;
-  content: '';
-  display: block;
-  width: 140%;
-  height: 100%;
-  left: -20%;
-  z-index: -1000;
-  transition: all ease-in-out 0.5s;
-  background-repeat: no-repeat;
-}
-.bubbly-button:before {
-  display: none;
-  top: -75%;
-  background-image: radial-gradient(circle, #00ff7381 20%, transparent 20%), radial-gradient(circle, transparent 20%, #00ff7381 20%, transparent 30%), radial-gradient(circle, #00ff7381 20%, transparent 20%), radial-gradient(circle, #00ff7381 20%, transparent 20%), radial-gradient(circle, transparent 10%, #00ff7381 15%, transparent 20%), radial-gradient(circle, #00ff7381 20%, transparent 20%), radial-gradient(circle, #00ff7381 20%, transparent 20%), radial-gradient(circle, #00ff7381 20%, transparent 20%), radial-gradient(circle, #00ff7381 20%, transparent 20%);
-  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
-}
-.bubbly-button:after {
-  display: none;
-  bottom: -75%;
-  background-image: radial-gradient(circle, #00ff7381 20%, transparent 20%), radial-gradient(circle, #00ff7381 20%, transparent 20%), radial-gradient(circle, transparent 10%, #00ff7381 15%, transparent 20%), radial-gradient(circle, #00ff7381 20%, transparent 20%), radial-gradient(circle, #00ff7381 20%, transparent 20%), radial-gradient(circle, #00ff7381 20%, transparent 20%), radial-gradient(circle, #00ff7381 20%, transparent 20%);
-  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
-}
-.bubbly-button:active {
-  transform: scale(0.9);
-  background-color: #00ff7381;
-  box-shadow: 0 2px 25px #00ff7381;
-}
-.bubbly-button.animate:before {
-  display: block;
-  animation: topBubbles ease-in-out 0.75s forwards;
-}
-.bubbly-button.animate:after {
-  display: block;
-  animation: bottomBubbles ease-in-out 0.75s forwards;
+.btn-transparent:hover {
+  background-color: #fff;
 }
 
-@keyframes topBubbles {
-  0% {
-    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+.btn-rounded {
+  border-radius: 70px;
+}
+
+.btn-large {
+  padding: 11px 45px;
+  font-size: 18px;
+}
+
+/**
+ * Change animation duration
+ */
+.animated {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
   }
-  50% {
-    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
-  }
-  100% {
-    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
-    background-size: 0% 0%, 0% 0%,  0% 0%,  0% 0%,  0% 0%,  0% 0%;
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
   }
 }
-@keyframes bottomBubbles {
-  0% {
-    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
   }
-  50% {
-    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
   }
-  100% {
-    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
-    background-size: 0% 0%, 0% 0%,  0% 0%,  0% 0%,  0% 0%,  0% 0%;
-  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
 }
