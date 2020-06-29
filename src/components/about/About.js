@@ -47,12 +47,11 @@ class About extends Component {
               />
             </div>
           </div>
-        </div>
+       
 
         <div className="row d-flex justify-content-center">
           <div className="col-lg-4 col-md-6 col-sm-12">
             <Card_profile
-              width="85"
               avatar="  media/avatar/avatarNghia.png"
               name="Hồ Quốc Nghĩa"
               MSSV="18130150"
@@ -64,7 +63,6 @@ class About extends Component {
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12">
             <Card_profile
-              width="85"
               avatar="  media/avatar/avatarCuong.png"
               name="Nguyễn Văn Cương"
               MSSV="18130024"
@@ -74,6 +72,7 @@ class About extends Component {
               youtube="https://www.youtube.com/"
             />
           </div>
+        </div>
         </div>
       </div>
     );
