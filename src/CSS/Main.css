@@ -26,10 +26,11 @@ body {
 }
 /* css result */
 .section-padding-100-0 {
-  padding-top: 100px;
+  width: 100%;
+  padding-top: 20px;
   padding-bottom: 0;
+  
 }
-
 
 
 .why-choose-us-content {
@@ -68,6 +69,7 @@ body {
   width: 120%;
 }
 .why-choose-us-content h4 {
+  text-align: center;
   font-size: 16px!important;
   font-weight: 500;
   margin-bottom: 15px;
@@ -93,7 +95,10 @@ body {
   -moz-box-shadow: 0px 6px 25px 1px rgba(252,96,96,1);
   box-shadow: 0px 6px 25px 1px rgba(252,96,96,1);
 }
-
+.mt-15{
+  font-size: 120%;
+  margin : 50px;
+}
 .mt-16 {
    padding :5px ;
     background: gold;
