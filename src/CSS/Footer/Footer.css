@@ -92,6 +92,7 @@
 }
 
 .tt-subscribe {
+    
     position: relative;
 }
 
@@ -109,7 +110,7 @@
 }
 
 .tt-subscribe-submit {
-    background: #001b57;
+    background: #416cc9;
 }
 
 .tt-subscribe-submit {
@@ -122,7 +123,7 @@
     line-height: 46px;
     color: #2a2a2a;
     text-align: center;
-    background: #001b57;
+    background: #3d69c9;
     -moz-border-radius-topright: 3px;
     border-top-right-radius: 3px;
     -moz-border-radius-bottomright: 3px;

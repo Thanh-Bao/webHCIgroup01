@@ -23,59 +23,62 @@ class Footer extends Component {
                   {/* webintern_footer_title */}
                   <h4 className="webintern_footer_title h5"><small>Quick Links</small></h4>
                   <ul className="webintern-footer-list">
-                    <NavLink
-                      className="nav-link"
-                      to="/home"
-                      activeClassName="current_content"
-                    >
-                      <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4" style={{ color: 'white' }}>
-                        <span>
-                          <i className="fa fa-home"></i> Home
+                    <ul className="navbar-nav ml-auto py-4 py-md-0">
+                      <NavLink
+                        className="nav-link"
+                        to="/home"
+                        activeClassName="current_content"
+                      >
+                        <li style={{ color: 'white' }}>
+                          <span>
+                            <i className="fa fa-home"></i> Home
                           </span>
-                      </li>
-                    </NavLink>
+                        </li>
+                      </NavLink>
 
-                    <NavLink
-                      className="nav-link"
-                      to="/diary"
-                      activeClassName="current_content"
-                    >
-                      <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4"  style={{ color: 'white' }}>
-                        <span>
-                          <i className="fas fa-history"></i> Diary
+                      <NavLink
+                        className="nav-link"
+                        to="/diary"
+                        activeClassName="current_content"
+                      >
+                        <li style={{ color: 'white' }}>
+                          <span>
+                            <i className="fas fa-history"></i> Diary
                           </span>
-                      </li>
-                    </NavLink>
-                    <NavLink
-                      className="nav-link"
-                      to="/about"
-                      activeClassName="current_content"
-                    >
-                      <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4"  style={{ color: 'white' }}>
-                        <span>
-                          <i className="far fa-address-card"></i> About
+                        </li>
+                      </NavLink>
+                      <NavLink
+                        className="nav-link"
+                        to="/about"
+                        activeClassName="current_content"
+                      >
+                        <li style={{ color: 'white' }}>
+                          <span>
+                            <i className="far fa-address-card"></i> About
                           </span>
-                      </li>
-                    </NavLink>
-                    <NavLink
-                      className="nav-link"
-                      to="/result"
-                      activeClassName="current_content"
-                    >
-                      <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4"  style={{ color: 'white' }}>
-                        <span>
-                          <i className="fas fa-trophy"></i> Result
+                        </li>
+                      </NavLink>
+                      <NavLink
+                        className="nav-link"
+                        to="/result"
+                        activeClassName="current_content"
+                      >
+                        <li style={{ color: 'white' }}>
+                          <span>
+                            <i className="fas fa-trophy"></i> Result
                           </span>
-                      </li>
-                    </NavLink>
+                        </li>
+                      </NavLink>
+                    </ul>
                   </ul>
+
                   <div className="empty-space xs-25 sm-25" />
                 </div>
                 <div className="col-sm-6 col-md-3 footer-3">
                   {/* webintern_footer_title */}
                   <h4 className="webintern_footer_title h5"><small> Our Courses </small></h4>
                   <ul className="webintern-footer-list">
-                    <li><a href="#">Human-Computer Interaction </a></li>
+                    <li><a href="#">Human-Computer Interaction</a></li>
                     <li><a href="#">Object-Oriented Design</a></li>
                     <li><a href="#">Intro Database</a></li>
                     <li><a href="#">Graph Theory</a></li>
@@ -89,15 +92,14 @@ class Footer extends Component {
                   <div className="empty-space marg-lg-b20" />
                   <div className="empty-space marg-lg-b15" />
                   {/* TT-SUBSCRIBE */}
-                  <form method="post">
-                    <div className="tt-subscribe">
-                      <input type="text" required placeholder="Enter your email" />
-                      <div className="tt-subscribe-submit">
-                        <i className="fa fa-envelope" aria-hidden="true" />
-                        <input type="submit" defaultValue />
-                      </div>
+
+                  <div className="tt-subscribe">
+                    <input type="text" required placeholder="Enter your email" />
+                    <div className="tt-subscribe-submit">
+                      <i className="fa fa-envelope" type="submit" aria-hidden="true" />
                     </div>
-                  </form>
+                  </div>
+
                   <div className="empty-space marg-lg-b30" />
                   {/* TT-SOCAIL */}
                   <ul className="tt-socail">
@@ -106,20 +108,6 @@ class Footer extends Component {
                     <li><a href="#"><i className="fab fa-twitter" aria-hidden="true" /></a></li>
                     <li><a href="#"><i className="fab fa-google-plus" aria-hidden="true" /></a></li>
                   </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="tt-copy">
-            <div className="container">
-              <div className="row">
-                <div className="col-sm-6">
-                  <div className="tt-copy-left">Copyright © company 2018. All rights reserved. </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="tt-copy-right">
-                    Created by: Huan
-                </div>
                 </div>
               </div>
             </div>
