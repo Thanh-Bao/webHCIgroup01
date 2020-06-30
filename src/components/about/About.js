@@ -30,7 +30,7 @@ class About extends Component {
                 name="Võ Đoàn Minh Huân"
                 MSSV="18130089"
                 classes="DH18DTA"
-                linkWeb="https://minhhuan-8b465.web.app/"
+                linkWeb="https://minhhuan.tk"
                 facebook="https://www.facebook.com/profile.php?id=100011287508032"
                 youtube="https://www.youtube.com/channel/UCol6-1rM-vyFYbbG2fdj3_A"
               />

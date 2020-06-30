@@ -5,50 +5,89 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <h1>hưlllllllllllllllllllllllllllllllllllllllllllllllllll</h1>
-        <div id="myCarousel" className="carousel slide">
+        <div id="align-top"></div>
+
+        <div
+          id="carouselExampleCaptions"
+          className="carousel slide"
+          data-ride="carousel"
+        >
           <ol className="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to={0} className="active" />
-            <li data-target="#myCarousel" data-slide-to={1} />
-            <li data-target="#myCarousel" data-slide-to={2} />
+            <li
+              data-target="#carouselExampleCaptions"
+              data-slide-to={0}
+              className="active"
+            />
+            <li data-target="#carouselExampleCaptions" data-slide-to={1} />
+            <li data-target="#carouselExampleCaptions" data-slide-to={2} />
           </ol>
           <div className="carousel-inner">
-            <div className="item active">
-              <div className="fill" style={{ backgroundImage: 'url("http://www.marchettidesign.net/demo/optimized-bootstrap/code.jpg")' }} />
-              <div className="carousel-caption">
-                <h2 className="animated fadeInLeft">Caption Animation</h2>
-                <p className="animated fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <p className="animated fadeInUp"><a href="#" className="btn btn-transparent btn-rounded btn-large">Learn More</a></p>
+            <div className="carousel-item active">
+              <img
+                src="media/carousel_home/slide2.png"
+                className="d-block w-100"
+                alt="..."
+              />
+              <div className="carousel-caption d-none d-md-block">
+                <a href="https://group01-tintucbatdongsan.tk/" target="_blank">
+                  <button class="buttonHome">
+                    <i class="far fa-hand-point-right"></i> Project
+                  </button>
+                </a>
+                <p> Project tin tức bất đông sản</p>
               </div>
             </div>
-            <div className="item">
-              <div className="fill" style={{ backgroundImage: 'url("http://www.marchettidesign.net/demo/optimized-bootstrap/conference.jpg")' }} />
-              <div className="carousel-caption">
-                <h2 className="animated fadeInDown">Caption Animation</h2>
-                <p className="animated fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <p className="animated fadeInUp"><a href="#" className="btn btn-transparent btn-rounded btn-large">Learn More</a></p>
+            <div className="carousel-item">
+              <img
+                src="media/carousel_home/slide1.png"
+                className="d-block w-100"
+                alt="..."
+              />
+              <div className="carousel-caption d-none d-md-block">
+                <a href="https://group01-tintucbatdongsan.tk/" target="_blank">
+                  <button class="buttonHome">
+                    <i class="far fa-hand-point-right"></i> Project
+                  </button>
+                </a>
+                <p> Project tin tức bất đông sản</p>
               </div>
             </div>
-            <div className="item">
-             
-              <div className="fill" style={{ backgroundImage: 'url("http://www.marchettidesign.net/demo/optimized-bootstrap/campus.jpg")' }} />
-              <div className="carousel-caption">
-                <h2 className="animated fadeInRight">Caption Animation</h2>
-                <p className="animated fadeInRight">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <p className="animated fadeInRight"><a href="#" className="btn btn-transparent btn-rounded btn-large">Learn More</a></p>
+            <div className="carousel-item">
+              <img
+                src="media/carousel_home/slide3.png"
+                className="d-block w-100"
+                alt="..."
+              />
+              <div className="carousel-caption d-none d-md-block">
+                <a href="https://group01-tintucbatdongsan.tk/" target="_blank">
+                  <button class="buttonHome">
+                    <i class="far fa-hand-point-right"></i> Project
+                  </button>
+                </a>
+                <p> Project tin tức bất đông sản</p>
               </div>
             </div>
           </div>
-          <a className="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span className="icon-prev" />
+          <a
+            className="carousel-control-prev"
+            href="#carouselExampleCaptions"
+            role="button"
+            data-slide="prev"
+          >
+            <span className="carousel-control-prev-icon" aria-hidden="true" />
+            <span className="sr-only">Previous</span>
           </a>
-          <a className="right carousel-control" href="#myCarousel" data-slide="next">
-            <span className="icon-next" />
+          <a
+            className="carousel-control-next"
+            href="#carouselExampleCaptions"
+            role="button"
+            data-slide="next"
+          >
+            <span className="carousel-control-next-icon" aria-hidden="true" />
+            <span className="sr-only">Next</span>
           </a>
         </div>
-
       </div>
-
     );
   }
 }
