@@ -124,9 +124,15 @@ body {
 
 /* for diary page by Cuong */
 .centerImage{
-  margin-top: 20px;
+  /* margin-top: 20px;
   margin-bottom: 40px;
-  margin-left: 55px;
+  margin-left: 55px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 70%;
+  
 }
 .size-hr{
   display: block;

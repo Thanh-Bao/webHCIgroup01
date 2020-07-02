@@ -24,12 +24,14 @@ class Home extends Component {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                src="media/carousel_home/slide2.png"
-                className="d-block w-100"
+                src="media/carousel_home/slide1.png"
+                className="d-block w-100 img-home"
                 alt="..."
               />
-              <div className="carousel-caption d-none d-md-block">
+              <div className="carousel-caption d-none d-md-block bt-text-center">
+                <h1 className="h1-tieude">Wellcome <br/>HCI_2020_Group01</h1>
                 <a href="https://group01-tintucbatdongsan.tk/" target="_blank">
+                  
                   <button class="buttonHome">
                     <i class="far fa-hand-point-right"></i> Project
                   </button>
@@ -39,11 +41,11 @@ class Home extends Component {
             </div>
             <div className="carousel-item">
               <img
-                src="media/carousel_home/slide1.png"
+                src="media/carousel_home/slide2.png"
                 className="d-block w-100"
                 alt="..."
               />
-              <div className="carousel-caption d-none d-md-block">
+              <div className="carousel-caption d-none d-md-block bt-text-centet">
                 <a href="https://group01-tintucbatdongsan.tk/" target="_blank">
                   <button class="buttonHome">
                     <i class="far fa-hand-point-right"></i> Project
@@ -58,7 +60,7 @@ class Home extends Component {
                 className="d-block w-100"
                 alt="..."
               />
-              <div className="carousel-caption d-none d-md-block">
+              <div className="carousel-caption d-none d-md-block bt-text-centet">
                 <a href="https://group01-tintucbatdongsan.tk/" target="_blank">
                   <button class="buttonHome">
                     <i class="far fa-hand-point-right"></i> Project

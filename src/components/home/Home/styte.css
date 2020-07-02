@@ -152,4 +152,17 @@ p {
 }
 
 .buttonHome:focus { outline:0; }
-
+.bt-text-center{
+  
+  margin-left: auto;
+  margin-right: auto;
+  top: 30%;
+}
+.h1-tieude{
+  font-size: 300%;
+  top: 50%;
+ 
+}
+.img-home{
+  opacity: 0.5;
+}
