@@ -14,6 +14,7 @@ class Table extends Component {
                             <th className="" data-toggle="tooltip" title="Mã số sinh viên">MSSV</th>
                             <th className="">Họ và tên</th>
                             <th className="">Công việc được giao</th>
+                            <th className="">Kết quả</th>
                             <th className="">Tiến độ</th>
                         </tr>
                     </thead>
@@ -23,32 +24,36 @@ class Table extends Component {
                             <td>18130017</td>
                             <td>Trần Thanh Bảo</td>
                             <td>{this.props.congviecBao}</td>
-                            
-                            <td>Hoàn thành</td>
+                            <td>{this.props.ketquaBao}
+                            </td>
+                            <td>{this.props.tiendo}</td>
                     </tr>
                     <tr>
                             <td>2</td>
                             <td>18130024</td>
                             <td>Nguyễn Văn Cương</td>
                             <td>{this.props.congviecCuong}</td>
-                           
-                            <td>Hoàn thành</td>
+                            <td>{this.props.ketquaCuong}
+                            </td>
+                            <td>{this.props.tiendo}</td>
                     </tr>
                     <tr>
                             <td>3</td>
                             <td>18130052</td>
                             <td>Lê Tuấn Dương</td>
                             <td>{this.props.congviecDuong}</td>
-                          
-                            <td>Hoàn thành</td>
+                            <td>{this.props.ketquaDuong}
+                            </td>
+                            <td>{this.props.tiendo}</td>
                     </tr>
                     <tr>
                             <td>4</td>
                             <td>18130150</td>
                             <td>Hồ Quốc Nghĩa</td>
                             <td>{this.props.congviecNghia}</td>
-                            
-                            <td>Hoàn thành</td>
+                            <td>{this.props.ketquaNghia}
+                            </td>
+                            <td>{this.props.tiendo}</td>
                     </tr>
 
                     <tr>
@@ -56,8 +61,9 @@ class Table extends Component {
                             <td>18130089</td>
                             <td>Võ Đoàn Minh Huân</td>
                             <td>{this.props.congviecHuan}</td>
-                         
-                            <td>Hoàn thành</td>
+                            <td>{this.props.ketquaHuan}
+                            </td>
+                            <td>{this.props.tiendo}</td>
                     </tr>
                 </tbody>
 
