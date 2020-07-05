@@ -78,6 +78,7 @@ body {
   transition-duration: 800ms;
 }
 .why-choose-us-content span {
+  font-size: 18px;
   color: black;
 }
 .why-choose-us-content p {
