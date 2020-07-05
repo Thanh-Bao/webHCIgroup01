@@ -135,7 +135,6 @@ class Result extends Component {
                             </li>
                           </ul>
                         </div>
-<<<<<<< HEAD
                         <div className="price-content price-bot">
                           <h4>Trang web nhóm</h4>
                           <ul className="task pl-2">
@@ -162,73 +161,7 @@ class Result extends Component {
                             <li>Hoàn thành: 100%</li>
                             <li className="judge">Đóng góp: 20%</li>
                           </ul>
-=======
-                        <h3 className="text-center">Hồ Quốc Nghĩa </h3>
-                        <div className="price-block">
-                          <div className="price-content-wrapper">
-                            <div className="price-content price-bot">
-                              <h4>Trang web Project</h4>
-                              <ul className="task pl-2">
-                                <li>
-                                  <a href="" target="_blank">
-                                    <span> 1.Làm trang About </span>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="" target="_blank">
-                                    <span> 2.Làm chế độ chọn ngôn ngữ cho web </span>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="" target="_blank">
-                                    <span> 3.Soạn nội dung cho web </span>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="" target="_blank">
-                                    <span> 4.Design "Qúa trình hình thành và phát triển" trong more </span>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                            <div className="price-content price-bot">
-                              <h4>Trang web nhóm</h4>
-                              <ul className="task pl-2">
-                                <li>
-                                  <a href="https://hci2020group01.tk/home" target="_blank">
-                                    <span> 5. Trang Home</span>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="https://hci2020group01.tk/about" target="_blank">
-                                    <span> 6. Trang About</span>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="" target="_blank">
-                                    <span> 7. Nút Search</span>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                            <div className="price-content">
-                              <h4>Đánh giá</h4>
-                              <ul className="pl-2">
-                                <li>Hoàn thành: 100%</li>
-                                <li className="judge">Đóng góp: 20%</li>
-                              </ul>
-                            </div>
-                          </div>
-                          <div className="text-center mt-16">
-                            <a
-                              target="_blank"
-                              href=""
-                              className="btn1 btn-primary2 btn-sm"
-                            >
-                              <i className="fa fa-star" /> Đánh giá cá nhân
-                            </a>
-                          </div>
->>>>>>> 95fa3a1276e66d18ccc033318a3298873c0e63a0
+                          <div/>
                         </div>
                       </div>
                       <div className="text-center mt-16">
