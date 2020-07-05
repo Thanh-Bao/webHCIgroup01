@@ -25,7 +25,7 @@ class Home extends Component {
             <div className="carousel-item active">
               <img
                 src="media/carousel_home/slide1.png"
-                className="d-block w-100 img-home"
+                className="d-block w-100 img-home opacity-img"
                 alt="..."
               />
               <div className="carousel-caption d-none d-md-block bt-text-center">

@@ -161,6 +161,9 @@ p {
   animation: atom 2s infinite linear;
   display: block;
 }
+.opacity-img{
+  opacity: 0.5;
+}
 @keyframes atom {
   0% {
     transform: translateX(0) rotate(0);
