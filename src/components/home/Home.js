@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import "./Home/styte.css";
+import "../../CSS/home.css";
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <div id="align-top"></div>
+        {/* <div id="align-top"></div> */}
 
         <div
           id="carouselExampleCaptions"
@@ -29,13 +29,24 @@ class Home extends Component {
                 alt="..."
               />
               <div className="carousel-caption d-none d-md-block bt-text-center">
-                <h1 className="h1-tieude">Wellcome <br/>HCI_2020_Group01</h1>
-                <a href="https://group01-tintucbatdongsan.tk/" target="_blank">
-                  
-                  <button class="buttonHome">
-                    <i class="far fa-hand-point-right"></i> Project
-                  </button>
-                </a>
+                <h2 className="h1-tieude">
+                  Wellcome to <br />
+                  HCI_2020_Group01
+                </h2>
+
+                <div>
+                  <a
+                    href="https://group01-tintucbatdongsan.tk"
+                    target="_blank"
+                    style={{ "text-decoration": "none", fontWeight: "bold" }}
+                  >
+                    <div className="btnProject">
+                      <span>Project</span>
+                      <div className="dot"></div>
+                    </div>
+                  </a>
+                </div>
+
                 <p> Project tin tức bất đông sản</p>
               </div>
             </div>
@@ -47,9 +58,16 @@ class Home extends Component {
               />
               <div className="carousel-caption d-none d-md-block bt-text-centet">
                 <a href="https://group01-tintucbatdongsan.tk/" target="_blank">
-                  <button class="buttonHome">
-                    <i class="far fa-hand-point-right"></i> Project
-                  </button>
+                  <a
+                    href="https://group01-tintucbatdongsan.tk"
+                    target="_blank"
+                    style={{ "text-decoration": "none", fontWeight: "bold" }}
+                  >
+                    <div className="btnProject">
+                      <span>Project</span>
+                      <div className="dot"></div>
+                    </div>
+                  </a>
                 </a>
                 <p> Project tin tức bất đông sản</p>
               </div>
@@ -62,9 +80,16 @@ class Home extends Component {
               />
               <div className="carousel-caption d-none d-md-block bt-text-centet">
                 <a href="https://group01-tintucbatdongsan.tk/" target="_blank">
-                  <button class="buttonHome">
-                    <i class="far fa-hand-point-right"></i> Project
-                  </button>
+                  <a
+                    href="https://group01-tintucbatdongsan.tk"
+                    target="_blank"
+                    style={{ "text-decoration": "none", fontWeight: "bold" }}
+                  >
+                    <div className="btnProject">
+                      <span>Project</span>
+                      <div className="dot"></div>
+                    </div>
+                  </a>
                 </a>
                 <p> Project tin tức bất đông sản</p>
               </div>
