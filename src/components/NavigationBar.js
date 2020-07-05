@@ -85,20 +85,11 @@ class NavigationBar extends Component {
                         </li>
                       </NavLink>
 
-                      <form>
+                      {/* <form>
                         <input type="search" placeholder="Search" />
-                      </form>
+                      </form> */}
 
-                      <a
-                        href="https://group01-tintucbatdongsan.tk"
-                        target="_blank"
-                        style={{ "text-decoration": "none" }}
-                      >
-                        <div className="btnProject ml-3">
-                          <span>Project</span>
-                          <div className="dot"></div>
-                        </div>
-                      </a>
+                    
 
                       
                     </ul>

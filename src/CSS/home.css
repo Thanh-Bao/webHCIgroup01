@@ -1,0 +1,182 @@
+
+
+
+.carousel,
+.item,
+.active {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+  background: #000;
+}
+
+.carousel-caption {
+  padding-bottom: 80px;
+}
+
+h2 {
+  font-size: 60px;
+}
+p {
+  padding: 10px;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  opacity: 0.6;
+}
+
+/**
+ * Button
+ */
+.btn-transparent {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.btn-transparent:hover {
+  background-color: #fff;
+}
+
+.btn-rounded {
+  border-radius: 70px;
+}
+
+.btn-large {
+  padding: 11px 45px;
+  font-size: 18px;
+}
+
+/**
+ * Change animation duration
+ */
+.animated {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+
+
+
+/* for carousel */
+
+
+
+
+/* ///////////////// button project ////////////////// */
+
+:root {
+  --bg: #3c465c;
+  --primary: #f8f8f8;
+  --solid: rgb(255, 244, 241);
+  --btn-w: 7em;
+  --dot-w: calc(var(--btn-w) * 0.25);
+  --tr-X: calc(var(--btn-w) - var(--dot-w));
+}
+
+.btnProject:hover {
+  background: linear-gradient(to left, #0182fa 1%, #04b0ffea 100%);
+}
+.btnProject {
+  background: linear-gradient(to left, #01f2fa 1%, #0432ffea 100%);
+  position: relative;
+  margin: 0 auto;
+  width: var(--btn-w);
+  color: var(--primary);
+  border: 0.2em solid var(--primary);
+  border-radius: 5em;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 2.7em;
+  cursor: pointer;
+}
+.dot {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: var(--dot-w);
+  height: 100%;
+  border-radius: 100%;
+  transition: all 300ms ease;
+  display: none;
+}
+.dot:after {
+  content: "";
+  position: absolute;
+  left: calc(50% - 0.4em);
+  top: -0.4em;
+  height: 0.8em;
+  width: 0.8em;
+  background: var(--primary);
+  border-radius: 1em;
+  border: 0.25em solid var(--solid);
+  box-shadow: 0 0 0.7em var(--solid), 0 0 2em var(--primary);
+}
+.btnProject:hover .dot,
+.btnProject:focus .dot {
+  animation: atom 2s infinite linear;
+  display: block;
+}
+@keyframes atom {
+  0% {
+    transform: translateX(0) rotate(0);
+  }
+  30% {
+    transform: translateX(var(--tr-X)) rotate(0);
+  }
+  50% {
+    transform: translateX(var(--tr-X)) rotate(180deg);
+  }
+  80% {
+    transform: translateX(0) rotate(180deg);
+  }
+  100% {
+    transform: translateX(0) rotate(360deg);
+  }
+}
+
+
