@@ -104,22 +104,22 @@ class Result extends Component {
                           <ul className="task pl-2">
                             <li>
                               <a href="" target="_blank">
-                                <span> 1.làm gì đó </span>
+                                <span> 1.Làm Trang About </span>
                               </a>
                             </li>
                             <li>
                               <a href="" target="_blank">
-                                <span> 2.làm gì đó </span>
+                                <span> 2.Design trang more </span>
                               </a>
                             </li>
                             <li>
                               <a href="" target="_blank">
-                                <span> 3.làm gì đó </span>
+                                <span> 3.Làm Register của phần login</span>
                               </a>
                             </li>
                             <li>
                               <a href="" target="_blank">
-                                <span> 4.làm gì đó </span>
+                                <span> 4.Làm chức năng comments </span>
                               </a>
                             </li>
                           </ul>
