@@ -6,14 +6,14 @@ class Result extends Component {
     return (
       <div>
         <div id="align-top"></div>
-        <div className="container">
+       {/* <div className="container">
               <nav aria-label="breadcrumb">
                  <ol className="breadcrumb ">
                    <li className="breadcrumb-item "><a href="https://hci2020group01.tk/home" className="color-bread thea"><strong>Home</strong></a></li>
                    <li className="breadcrumb-item active color-bread" aria-current="page">Result</li>
                  </ol>
              </nav>
-             </div>
+    </div>*/}
         <div className="section-padding-100-0">
           <div className="col-12 p-0">
             <div className="container">

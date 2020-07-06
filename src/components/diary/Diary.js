@@ -9,7 +9,7 @@ class Diary extends Component {
         
       
       <div id="align-top">
-              <div className="container">
+            {/*  <div className="container">
                        
               <nav aria-label="breadcrumb">
                  <ol className="breadcrumb ">
@@ -17,7 +17,7 @@ class Diary extends Component {
                    <li className="breadcrumb-item active color-bread" aria-current="page">Diary</li>
                  </ol>
              </nav>
-             </div>
+    </div>*/}
                     
 
         <div className="container">

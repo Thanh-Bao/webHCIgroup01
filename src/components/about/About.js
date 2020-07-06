@@ -7,14 +7,14 @@ class About extends Component {
     return (
       <div>
         <div id="align-top"></div>
-        <div className="container">
+        {/**<div className="container">
               <nav aria-label="breadcrumb">
                  <ol className="breadcrumb ">
                   <li className="breadcrumb-item "><a href="https://hci2020group01.tk/home" className="color-bread thea"><strong>Home</strong></a></li>
                    <li className="breadcrumb-item active color-bread" aria-current="page">About</li>
                  </ol>
              </nav>
-             </div>
+    </div>**/}
 
         <h1 className="text-center my-5 pb-2">ĐỘI NGŨ PHÁT TRIỂN WEBSITE</h1>
      
