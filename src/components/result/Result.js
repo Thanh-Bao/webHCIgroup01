@@ -355,22 +355,22 @@ class Result extends Component {
                           <ul className="task pl-2">
                             <li>
                               <a href="" target="_blank">
-                                <span> 1.làm gì đó </span>
+                                <span> 1.Tìm kiếm hình ảnh </span>
                               </a>
                             </li>
                             <li>
                               <a href="" target="_blank">
-                                <span> 2.làm gì đó </span>
+                                <span> 2.Sửa lỗi </span>
                               </a>
                             </li>
                             <li>
                               <a href="" target="_blank">
-                                <span> 3.làm gì đó </span>
+                                <span> 3.Nhập dữ liệu</span>
                               </a>
                             </li>
                             <li>
                               <a href="" target="_blank">
-                                <span> 4.làm gì đó </span>
+                                <span> 4.Tạo Search </span>
                               </a>
                             </li>
                           </ul>
