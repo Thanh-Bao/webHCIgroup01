@@ -31,7 +31,7 @@ class Home extends Component {
               <div className="carousel-caption d-none d-md-block bt-text-center">
                 <h2 className="h1-tieude">
                   Wellcome to <br />
-                  HCI_2020_Group01
+                  Group 01 HCI 2020
                 </h2>
 
                 <div>

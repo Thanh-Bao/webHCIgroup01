@@ -7,8 +7,6 @@ class Result extends Component {
       <div>
         <div id="align-top"></div>
 
-
-
         <div className="section-padding-100-0">
           <div className="col-12 p-0">
             <div className="container">
@@ -16,8 +14,7 @@ class Result extends Component {
                 <div className="col-12">
                   <div className="text-center">
                     <h2 className="mt-15">
-                      <h1>Đánh giá quá trình làm
-                          việc nhóm</h1>
+                      <h1>Thành quả đạt được của nhóm</h1>
                     </h2>
                   </div>
                 </div>
@@ -40,25 +37,13 @@ class Result extends Component {
                               </a>
                             </li>
                             <li>
-                              <a href="" target="_blank">
-                                <span> 2. Xây dựng Router cho web </span>
-                              </a>
+                              <span> 2. Xây dựng Router cho web </span>
                             </li>
                             <li>
-                              <a href="" target="_blank">
-                                <span>
-                                  {" "}
-                                      3. Thêm plugin facebook, google{" "}
-                                </span>
-                              </a>
+                              <span>3. Thêm plugin facebook, google</span>
                             </li>
                             <li>
-                              <a href="" target="_blank">
-                                <span>
-                                  {" "}
-                                      4. đăng kí domain và deploy project
-                                    </span>
-                              </a>
+                              <span>4. đăng kí domain và deploy project</span>
                             </li>
                           </ul>
                         </div>
@@ -66,19 +51,23 @@ class Result extends Component {
                           <h4>Trang web nhóm</h4>
                           <ul className="task pl-2">
                             <li>
-                              <a href="https://hci2020group01.tk/home" target="_blank">
+                              <a
+                                href="https://hci2020group01.tk/home"
+                                target="_blank"
+                              >
                                 <span> 5. Trang Home</span>
                               </a>
                             </li>
                             <li>
-                              <a href="https://hci2020group01.tk/about" target="_blank">
+                              <a
+                                href="https://hci2020group01.tk/about"
+                                target="_blank"
+                              >
                                 <span> 6. Trang About</span>
                               </a>
                             </li>
                             <li>
-                              <a href="" target="_blank">
-                                <span> 7. Menu và điều hướng</span>
-                              </a>
+                              <span> 7. Menu và điều hướng</span>
                             </li>
                           </ul>
                         </div>
@@ -86,18 +75,18 @@ class Result extends Component {
                           <h4>Đánh giá</h4>
                           <ul className="pl-2">
                             <li>Hoàn thành: 100%</li>
-                            <li className="judge">Đóng góp: 20%</li>
+                            <li className="judge">Đóng góp: 22%</li>
                           </ul>
                         </div>
                       </div>
                       <div className="text-center mt-16">
                         <a
                           target="_blank"
-                          href=""
+                          href="https://baonlu.com/result"
                           className="btn1 btn-primary2"
                         >
                           <i className="fa fa-star" /> Đánh giá cá nhân
-                            </a>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -139,12 +128,18 @@ class Result extends Component {
                           <h4>Trang web nhóm</h4>
                           <ul className="task pl-2">
                             <li>
-                              <a href="https://hci2020group01.tk/home" target="_blank">
+                              <a
+                                href="https://hci2020group01.tk/home"
+                                target="_blank"
+                              >
                                 <span> 5. Trang Home</span>
                               </a>
                             </li>
                             <li>
-                              <a href="https://hci2020group01.tk/about" target="_blank">
+                              <a
+                                href="https://hci2020group01.tk/about"
+                                target="_blank"
+                              >
                                 <span> 6. Trang About</span>
                               </a>
                             </li>
@@ -159,9 +154,9 @@ class Result extends Component {
                           <h4>Đánh giá</h4>
                           <ul className="pl-2">
                             <li>Hoàn thành: 100%</li>
-                            <li className="judge">Đóng góp: 20%</li>
+                            <li className="judge">Đóng góp: 19%</li>
                           </ul>
-                          <div/>
+                          <div />
                         </div>
                       </div>
                       <div className="text-center mt-16">
@@ -171,7 +166,7 @@ class Result extends Component {
                           className="btn1 btn-primary2 btn-sm"
                         >
                           <i className="fa fa-star" /> Đánh giá cá nhân
-                            </a>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -191,17 +186,26 @@ class Result extends Component {
                               <span>1.Test web</span>
                             </li>
                             <li>
-                              <a href="https://group01-tintucbatdongsan.tk/" target="_blank">
+                              <a
+                                href="https://group01-tintucbatdongsan.tk/"
+                                target="_blank"
+                              >
                                 <span> 2.Làm footer </span>
                               </a>
                             </li>
                             <li>
-                              <a href="https://group01-tintucbatdongsan.tk/" target="_blank">
+                              <a
+                                href="https://group01-tintucbatdongsan.tk/"
+                                target="_blank"
+                              >
                                 <span> 3.Thêm blugin chuyển đổi ngôn ngữ </span>
                               </a>
                             </li>
                             <li>
-                              <a href="https://group01-tintucbatdongsan.tk/more" target="_blank">
+                              <a
+                                href="https://group01-tintucbatdongsan.tk/more"
+                                target="_blank"
+                              >
                                 <span> 4.Trang more </span>
                               </a>
                             </li>
@@ -211,12 +215,18 @@ class Result extends Component {
                           <h4>Trang web nhóm</h4>
                           <ul className="task pl-2">
                             <li>
-                              <a href="https://hci2020group01.tk/home" target="_blank">
+                              <a
+                                href="https://hci2020group01.tk/home"
+                                target="_blank"
+                              >
                                 <span> 5. Trang Home</span>
                               </a>
                             </li>
                             <li>
-                              <a href="https://hci2020group01.tk/about" target="_blank">
+                              <a
+                                href="https://hci2020group01.tk/about"
+                                target="_blank"
+                              >
                                 <span> 6. Trang About</span>
                               </a>
                             </li>
@@ -242,7 +252,7 @@ class Result extends Component {
                           className="btn1 btn-primary2"
                         >
                           <i className="fa fa-star" /> Đánh giá cá nhân
-                            </a>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -262,7 +272,10 @@ class Result extends Component {
                           <h4>Trang web Project</h4>
                           <ul className="task pl-2">
                             <li>
-                              <a href="https://hci2020group01.tk/home" target="_blank">
+                              <a
+                                href="https://hci2020group01.tk/home"
+                                target="_blank"
+                              >
                                 <span> 1.làm gì đó </span>
                               </a>
                             </li>
@@ -287,7 +300,10 @@ class Result extends Component {
                           <h4>Trang web nhóm</h4>
                           <ul className="task pl-2">
                             <li>
-                              <a href="https://hci2020group01.tk/home" target="_blank">
+                              <a
+                                href="https://hci2020group01.tk/home"
+                                target="_blank"
+                              >
                                 <span> 5. Trang Home</span>
                               </a>
                             </li>
@@ -297,7 +313,10 @@ class Result extends Component {
                               </a>
                             </li>
                             <li>
-                              <a href="https://hci2020group01.tk/diary" target="_blank">
+                              <a
+                                href="https://hci2020group01.tk/diary"
+                                target="_blank"
+                              >
                                 <span> 7. Trang diary</span>
                               </a>
                             </li>
@@ -307,7 +326,7 @@ class Result extends Component {
                           <h4>Đánh giá</h4>
                           <ul className="pl-2">
                             <li>Hoàn thành: 100%</li>
-                            <li className="judge">Đóng góp: 20%</li>
+                            <li className="judge">Đóng góp: 21%</li>
                           </ul>
                         </div>
                       </div>
@@ -318,7 +337,7 @@ class Result extends Component {
                           className="btn1 btn-primary2"
                         >
                           <i className="fa fa-star" /> Đánh giá cá nhân
-                            </a>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -360,7 +379,10 @@ class Result extends Component {
                           <h4>Trang web nhóm</h4>
                           <ul className="task pl-2">
                             <li>
-                              <a href="https://hci2020group01.tk/home" target="_blank">
+                              <a
+                                href="https://hci2020group01.tk/home"
+                                target="_blank"
+                              >
                                 <span> 5. Trang Home</span>
                               </a>
                             </li>
@@ -380,14 +402,14 @@ class Result extends Component {
                           <h4>Đánh giá</h4>
                           <ul className="pl-2">
                             <li>Hoàn thành: 100%</li>
-                            <li className="judge">Đóng góp: 20%</li>
+                            <li className="judge">Đóng góp: 18%</li>
                           </ul>
                         </div>
                       </div>
                       <div className="text-center mt-16">
                         <a target="_blank" href="">
                           <i className="fa fa-star" /> Đánh giá cá nhân
-                            </a>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -396,7 +418,6 @@ class Result extends Component {
             </div>
           </div>
         </div>
-
       </div>
     );
   }
