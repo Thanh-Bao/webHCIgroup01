@@ -167,8 +167,24 @@ th{
 .space-week-table{
   margin-top: 0.7cm;
 }
-.center-tabs{
-  margin-left:250px;
- 
+.center-tabs {
+  margin-left: auto;
+  margin-right: auto;
+
+  display: block;
 }
+.size-tabs {
+  height: 35px;
+  width: 90px;
+}
+.color-bread{
+  color: black;
+  font-size: 20px;
+}
+.thea:hover{
+  color:gray;
+  text-decoration: none;
+}
+
 /* ///////////////////////////// */
+

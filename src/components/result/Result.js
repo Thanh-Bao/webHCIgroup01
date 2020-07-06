@@ -6,7 +6,14 @@ class Result extends Component {
     return (
       <div>
         <div id="align-top"></div>
-
+        <div className="container">
+              <nav aria-label="breadcrumb">
+                 <ol className="breadcrumb ">
+                   <li className="breadcrumb-item "><a href="https://hci2020group01.tk/home" className="color-bread thea"><strong>Home</strong></a></li>
+                   <li className="breadcrumb-item active color-bread" aria-current="page">Result</li>
+                 </ol>
+             </nav>
+             </div>
         <div className="section-padding-100-0">
           <div className="col-12 p-0">
             <div className="container">
@@ -276,23 +283,23 @@ class Result extends Component {
                                 href="https://hci2020group01.tk/home"
                                 target="_blank"
                               >
-                                <span> 1.làm gì đó </span>
+                                <span> 1.Làm Trang Login </span>
                               </a>
                             </li>
                             <li>
-                              <a href="" target="_blank">
-                                <span> 2.làm gì đó </span>
-                              </a>
+                             
+                                <span> 2.Tìm content cho bài viết </span>
+                             
                             </li>
                             <li>
-                              <a href="" target="_blank">
-                                <span> 3.làm gì đó </span>
-                              </a>
+                              
+                                <span>3.Design menu, làm layout menu </span>
+                            
                             </li>
                             <li>
-                              <a href="" target="_blank">
-                                <span> 4.làm gì đó </span>
-                              </a>
+                              
+                                <span> 4.Design hình ảnh bằng photoshop </span>
+                             
                             </li>
                           </ul>
                         </div>
