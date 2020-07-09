@@ -85,6 +85,18 @@ class NavigationBar extends Component {
                         </li>
                       </NavLink>
 
+                      <NavLink
+                        className="nav-link"
+                        to="/style-guide"
+                        activeClassName="current_content"
+                      >
+                        <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                          <span>
+                            <i class="fas fa-palette"></i> Styles
+                          </span>
+                        </li>
+                      </NavLink>
+
                       {/* <form>
                         <input type="search" placeholder="Search" />
                       </form> */}

@@ -4,6 +4,7 @@ import Home from "./home/Home.js";
 import Diary from "./diary/Diary.js";
 import About from "./about/About.js";
 import Result from "./result/Result.js";
+import StyleGuide from "./style-guide/StyleGuide.js";
 
 class RouterURL extends Component {
   render() {
@@ -14,6 +15,7 @@ class RouterURL extends Component {
         <Route exact path="/diary" component={Diary} />
         <Route exact path="/about" component={About} />
         <Route exact path="/result" component={Result} />
+        <Route exact path="/style-guide" component={StyleGuide} />
       </div>
     );
   }

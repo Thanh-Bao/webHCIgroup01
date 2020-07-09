@@ -5,7 +5,6 @@ class Result extends Component {
   render() {
     return (
       <div>
-        <div id="align-top"></div>
        {/* <div className="container">
               <nav aria-label="breadcrumb">
                  <ol className="breadcrumb ">
@@ -14,7 +13,7 @@ class Result extends Component {
                  </ol>
              </nav>
     </div>*/}
-        <div className="section-padding-100-0">
+        <div className="section-padding-100-0 mt-4">
           <div className="col-12 p-0">
             <div className="container">
               <div className="row">
