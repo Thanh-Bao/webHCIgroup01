@@ -115,7 +115,7 @@ class Diary extends Component {
                 ></Table>
                 <Image
                   hinhanh="Hình Ảnh Tuần 1"
-                  image="image/week1.jpg"
+                  image="media/diary/week1.jpg"
                 ></Image>
               </div>
 
@@ -140,7 +140,7 @@ class Diary extends Component {
                 ></Table>
                 <Image
                   hinhanh="Hình Ảnh Tuần 2"
-                  image="image/week2.jpg"
+                  image="media/diary/week2.jpg"
                 ></Image>
               </div>
 
@@ -160,7 +160,7 @@ class Diary extends Component {
                 ></Table>
                 <Image
                   hinhanh="Hình Ảnh Tuần 3"
-                  image="image/week3.jpg"
+                  image="media/diary/week3.jpg"
                 ></Image>
               </div>
 
@@ -185,7 +185,7 @@ class Diary extends Component {
                 ></Table>
                 <Image
                   hinhanh="Hình Ảnh Tuần 4"
-                  image="image/week4.jpg"
+                  image="media/diary/week4.jpg"
                 ></Image>
               </div>
 
