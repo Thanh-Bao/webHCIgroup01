@@ -5,7 +5,7 @@ class Result extends Component {
   render() {
     return (
       <div>
-       {/* <div className="container">
+        {/* <div className="container">
               <nav aria-label="breadcrumb">
                  <ol className="breadcrumb ">
                    <li className="breadcrumb-item "><a href="https://hci2020group01.tk/home" className="color-bread thea"><strong>Home</strong></a></li>
@@ -286,19 +286,13 @@ class Result extends Component {
                               </a>
                             </li>
                             <li>
-                             
-                                <span> 2.Tìm content cho bài viết </span>
-                             
+                              <span> 2.Tìm content cho bài viết </span>
                             </li>
                             <li>
-                              
-                                <span>3.Design menu, làm layout menu </span>
-                            
+                              <span>3.Design menu, làm layout menu </span>
                             </li>
                             <li>
-                              
-                                <span> 4.Design hình ảnh bằng photoshop </span>
-                             
+                              <span> 4.Design hình ảnh bằng photoshop </span>
                             </li>
                           </ul>
                         </div>

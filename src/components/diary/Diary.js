@@ -100,11 +100,10 @@ class Diary extends Component {
                 <br />
                 <Table
                   tiendo="Hoàn Thành"
-                  congviecBao="Tìm hiểu về firebase và github"
-                  congviecHuan="Tìm hiểu về firebase và github"
-                  congviecDuong="Tìm hiểu về firebase và github"
-                  congviecCuong="Tìm hiểu về firebase và github"
-                  congviecNghia="Tìm hiểu về firebase và github"
+                  congviecBao="Đăng kí domain & trỏ về hosting"
+                  congviecDuong="Tìm tài liệu về firebase"
+                  congviecCuong="Tìm hiểu về github"
+                  congviecNghia="Tìm tài liệu về ReactJS, Bootstrap"
                   congviecHuan="Làm footer"
                   ketquaBao="Hoàn Thành"
                   ketquaCuong="Hoàn Thành"
@@ -125,8 +124,8 @@ class Diary extends Component {
 
                 <Table
                   tienDo="Hoàn Thành"
-                  congviecBao="Tạo Trang About"
-                  congviecCuong="Tạo Group Diary"
+                  congviecBao="Tạo repository github, cấp quyền các thành viên join vào project "
+                  congviecCuong="Cấu hình hosting"
                   congviecDuong="Làm trang Result"
                   congviecNghia="Làm trang Home"
                   congviecHuan="Làm footer"
@@ -150,9 +149,9 @@ class Diary extends Component {
 
                 <Table
                   tienDo="Hoàn Thành"
-                  congviecBao="Thiết Kế Trang Forgot Password"
+                  congviecBao="Làm thanh Menu và tạo Router điều hướng URL các trang"
                   congviecCuong="Thiết Kế trang Login"
-                  congviecDuong="Thiết kế trang login"
+                  congviecDuong="Edit video, nén ảnh, design logo"
                   congviecNghia="Thiết kế trang Register"
                   congviecHuan="Thiết kế trang Register"
                   tiendo="80%"
@@ -170,7 +169,7 @@ class Diary extends Component {
 
                 <Table
                   tienDo="Hoàn Thành"
-                  congviecBao="Tạo Trang About"
+                  congviecBao="Làm các bản tin web bất động sản, thêm animation cho web"
                   congviecCuong="Tạo Group Diary"
                   congviecDuong="Làm trang Result"
                   congviecNghia="Làm trang Home"
@@ -196,7 +195,7 @@ class Diary extends Component {
                 <Table
                   tienDo="Hoàn Thành"
                   image=""
-                  congviecBao="Thiết kế Trang Home Project và Đổi ngôn ngữ"
+                  congviecBao="Thêm các plugin facebook, google, zalo, add-on text-to-speed"
                   congviecCuong="Thiết kế Phần Login và Breadcrumb"
                   congviecDuong="Thiết kế trang Search"
                   congviecNghia="Thiết kế trang More"
@@ -212,7 +211,7 @@ class Diary extends Component {
                 <br />
 
                 <Table
-                  congviecBao="Thiết kế Trang Home Project và Đổi ngôn ngữ"
+                  congviecBao="Tìm content cho web, test web, merge code thành viên, debug"
                   congviecCuong="Thiết kế Phần Login và Breadcrumb"
                   congviecDuong="Thiết kế trang Search"
                   congviecNghia="Thiết kế trang More"
