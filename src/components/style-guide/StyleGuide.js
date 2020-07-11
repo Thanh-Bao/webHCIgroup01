@@ -33,20 +33,10 @@ class StyleGuide extends Component {
                 id="nav-tab"
                 role="tablist"
               >
-                <a
-                  className="nav-item nav-link active size-tabs-styte"
-                  id="nav-home-tab"
-                  data-toggle="tab"
-                  href="#layout"
-                  role="tab"
-                  aria-controls="nav-home"
-                  aria-selected="true"
-                >
-                  <b>Layout</b>
-                </a>
+               
 
                 <a
-                  className="nav-item nav-link size-tabs-styte"
+                  className="nav-item nav-link active  size-tabs-styte"
                   id="nav-profile-tab"
                   data-toggle="tab"
                   href="#typography"
@@ -55,6 +45,17 @@ class StyleGuide extends Component {
                   aria-selected="false"
                 >
                   <b>Typography</b>
+                </a>
+                <a
+                  className="nav-item nav-link size-tabs-styte"
+                  id="nav-home-tab"
+                  data-toggle="tab"
+                  href="#layout"
+                  role="tab"
+                  aria-controls="nav-home"
+                  aria-selected="true"
+                >
+                  <b>Table</b>
                 </a>
 
                 <a
