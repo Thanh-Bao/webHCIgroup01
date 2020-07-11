@@ -99,17 +99,23 @@ class Diary extends Component {
               <div id="week1" className="container tab-pane active">
                 <br />
                 <Table
-                  tiendo="Hoàn Thành"
                   congviecBao="Đăng kí domain & trỏ về hosting"
                   congviecDuong="Tìm tài liệu về firebase"
                   congviecCuong="Tìm hiểu về github"
                   congviecNghia="Tìm tài liệu về ReactJS, Bootstrap"
                   congviecHuan="Làm footer"
+
                   ketquaBao="Hoàn Thành"
                   ketquaCuong="Hoàn Thành"
                   ketquaDuong="Hoàn Thành"
                   ketquaNghia="Hoàn Thành"
                   ketquaHuan="Hoàn Thành"
+
+                  danhGiaBao="10/10"
+                  danhGiaCuong="9.5/10"
+                  danhGiaDuong="9/10"
+                  danhGiaNghia="8.8/10"
+                  danhGiaHuan="9/10"
                   week="TUẦN 1"
                 ></Table>
                 <Image
@@ -129,12 +135,18 @@ class Diary extends Component {
                   congviecDuong="Làm trang Result"
                   congviecNghia="Làm trang Home"
                   congviecHuan="Làm footer"
-                  ketquaBao=""
-                  ketquaCuong=""
-                  ketquaDuong=""
-                  ketquaNghia=""
-                  ketquaHuan=""
-                  tiendo="70%"
+
+                  ketquaBao="Hoàn Thành"
+                  ketquaCuong="Hoàn Thành"
+                  ketquaDuong="Hoàn Thành"
+                  ketquaNghia="Hoàn Thành"
+                  ketquaHuan="Hoàn Thành"
+                 
+                  danhGiaBao="9.5/10"
+                  danhGiaCuong="9/10"
+                  danhGiaDuong="9.2/10"
+                  danhGiaNghia="9.5/10"
+                  danhGiaHuan="8.9/10"
                   week="TUẦN 2"
                 ></Table>
                 <Image
@@ -148,13 +160,25 @@ class Diary extends Component {
                 <br />
 
                 <Table
-                  tienDo="Hoàn Thành"
+                  
                   congviecBao="Làm thanh Menu và tạo Router điều hướng URL các trang"
                   congviecCuong="Thiết Kế trang Login"
                   congviecDuong="Edit video, nén ảnh, design logo"
                   congviecNghia="Thiết kế trang Register"
                   congviecHuan="Thiết kế trang Register"
-                  tiendo="80%"
+
+                  ketquaBao="Hoàn Thành"
+                  ketquaCuong="Hoàn Thành"
+                  ketquaDuong="Hoàn Thành"
+                  ketquaNghia="Hoàn Thành"
+                  ketquaHuan="Hoàn Thành"
+
+                  danhGiaBao="9.8/10"
+                  danhGiaCuong="9.5/10"
+                  danhGiaDuong="9.2/10"
+                  danhGiaNghia="9/10"
+                  danhGiaHuan="9/10"
+                  
                   week="TUẦN 3"
                 ></Table>
                 <Image
@@ -174,13 +198,20 @@ class Diary extends Component {
                   congviecDuong="Làm trang Result"
                   congviecNghia="Làm trang Home"
                   congviecHuan="Làm footer"
+
                   ketquaBao="Hoàn Thành"
                   ketquaCuong="Hoàn Thành"
                   ketquaDuong="Hoàn Thành"
                   ketquaNghia="Hoàn Thành"
                   ketquaHuan="Hoàn Thành"
+
+                  danhGiaBao="9.5/10"
+                  danhGiaCuong="9.3/10"
+                  danhGiaDuong="9/10"
+                  danhGiaNghia="9.1/10"
+                  danhGiaHuan="9.2/10"
                   week="TUẦN 4"
-                  tiendo="Hoàn Thành"
+                  
                 ></Table>
                 <Image
                   hinhanh="Hình Ảnh Tuần 4"
@@ -196,13 +227,28 @@ class Diary extends Component {
                   tienDo="Hoàn Thành"
                   image=""
                   congviecBao="Thêm các plugin facebook, google, zalo, add-on text-to-speed"
-                  congviecCuong="Thiết kế Phần Login và Breadcrumb"
+                  congviecCuong="Tạo phần Login và Breadcrumb"
                   congviecDuong="Thiết kế trang Search"
                   congviecNghia="Thiết kế trang More"
                   congviecHuan="Thiết kế Form feedback project"
-                  tiendo="70%"
+
+                  ketquaBao="Hoàn Thành"
+                  ketquaCuong="Hoàn Thành"
+                  ketquaDuong="Hoàn Thành"
+                  ketquaNghia="Hoàn Thành"
+                  ketquaHuan="Hoàn Thành"
+
+                  danhGiaBao="9.8/10"
+                  danhGiaCuong="9.5/10"
+                  danhGiaDuong="9/10"
+                  danhGiaNghia="9.2/10"
+                  danhGiaHuan="9.7/10"
                   week="TUẦN 5&6"
                 ></Table>
+                <Image
+                  hinhanh="Hình Ảnh Tuần 5&6"
+                  image="media/diary/week5.jpg"
+                ></Image>
                 {/* <Image hinhanh="Hình Ảnh Tuần 5&6: Phân Công Về Nhà"></Image> */}
               </div>
 
@@ -212,18 +258,28 @@ class Diary extends Component {
 
                 <Table
                   congviecBao="Tìm content cho web, test web, merge code thành viên, debug"
-                  congviecCuong="Thiết kế Phần Login và Breadcrumb"
+                  congviecCuong="Design menu, design hình ảnh bằng photoshop"
                   congviecDuong="Thiết kế trang Search"
                   congviecNghia="Thiết kế trang More"
                   congviecHuan="Thiết kế Form feedback project"
-                  tiendo="Hoàn Thành"
+                 
                   ketquaBao="Hoàn Thành"
                   ketquaCuong="Hoàn Thành"
                   ketquaDuong="Hoàn Thành"
                   ketquaNghia="Hoàn Thành"
                   ketquaHuan="Hoàn Thành"
+
+                  danhGiaBao="10/10"
+                  danhGiaCuong="9.3/10"
+                  danhGiaDuong="9.5/10"
+                  danhGiaNghia="9.6/10"
+                  danhGiaHuan="9/10"
                   week="TUẦN 7&8"
                 ></Table>
+                <Image
+                  hinhanh="Hình Ảnh Tuần 7&8"
+                  image="media/diary/week7.jpg"
+                ></Image>
                 {/* <Image
                   hinhanh="Hai tuần này tụi em phân công về nhà làm. "
                   image=""
