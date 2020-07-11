@@ -15,7 +15,7 @@ class Table extends Component {
                             <th className="">Họ và tên</th>
                             <th className="">Công việc được giao</th>
                             <th className="">Kết quả</th>
-                            <th className="">Tiến độ</th>
+                            <th className="">Tự đánh giá</th>
                         </tr>
                     </thead>
                 <tbody>
@@ -26,7 +26,7 @@ class Table extends Component {
                             <td>{this.props.congviecBao}</td>
                             <td>{this.props.ketquaBao}
                             </td>
-                            <td>{this.props.tiendo}</td>
+                            <td>{this.props.danhGiaBao}</td>
                     </tr>
                     <tr>
                             <td>2</td>
@@ -35,7 +35,7 @@ class Table extends Component {
                             <td>{this.props.congviecCuong}</td>
                             <td>{this.props.ketquaCuong}
                             </td>
-                            <td>{this.props.tiendo}</td>
+                            <td>{this.props.danhGiaCuong}</td>
                     </tr>
                     <tr>
                             <td>3</td>
@@ -44,7 +44,7 @@ class Table extends Component {
                             <td>{this.props.congviecDuong}</td>
                             <td>{this.props.ketquaDuong}
                             </td>
-                            <td>{this.props.tiendo}</td>
+                            <td>{this.props.danhGiaDuong}</td>
                     </tr>
                     <tr>
                             <td>4</td>
@@ -53,7 +53,7 @@ class Table extends Component {
                             <td>{this.props.congviecNghia}</td>
                             <td>{this.props.ketquaNghia}
                             </td>
-                            <td>{this.props.tiendo}</td>
+                            <td>{this.props.danhGiaNghia}</td>
                     </tr>
 
                     <tr>
@@ -63,7 +63,7 @@ class Table extends Component {
                             <td>{this.props.congviecHuan}</td>
                             <td>{this.props.ketquaHuan}
                             </td>
-                            <td>{this.props.tiendo}</td>
+                            <td>{this.props.danhGiaHuan}</td>
                     </tr>
                 </tbody>
 
