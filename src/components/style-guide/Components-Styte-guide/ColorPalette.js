@@ -7,6 +7,7 @@ class ColorPalette extends Component {
                 <strong className="strong-styte">Primary Colors</strong>
                 {/* <div className="swatch-preview"> #34eb13</div>
                 <div>#0ebeb0</div> */}
+                <h5>Project and web group 01:</h5>
                 <div>
                     <ul className="list-no-bullets">
                         <li className="swatch">
