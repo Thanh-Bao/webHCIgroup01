@@ -1,7 +1,13 @@
 .h1-tieude{
   font-family: 'Fredoka One', cursive;
-  color : rgba(255, 255, 255, 0.924);
   font-size: 44px;
+  color : rgba(255, 255, 255, 0.924);
+  
+}
+.h1-tieude-styte{
+  font-family: 'Fredoka One', cursive;
+  font-size: 44px;
+  color: black;
 }
 
 

@@ -181,6 +181,10 @@ th{
   height: 35px;
   width: 20%;
 }
+.strong-styte{
+  color: red;
+  font-size: 200%;
+}
 .color-bread{
   color: black;
   font-size: 20px;
@@ -191,4 +195,42 @@ th{
 }
 
 /* ///////////////////////////// */
+
+/* Style guide */
+.swatch-preview{
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: block;
+  float: left;
+  height: 60px;
+  width: 100%;
+  margin: 0 0.8em 0.5em 0;
+}
+.list-no-bullets{
+  margin-left: 0;
+  float: left;
+  width: 100%;
+  padding: 0;
+}
+.swatch{
+  list-style-type: none;
+    background-image: none;
+    padding-left: 0;
+    line-height: 1.5em;
+    float: left;
+    margin-bottom: 1em;
+    width: 96%;
+    margin-right: 2%;
+    background-color: white;
+    padding: 10px 0;
+    padding: 0.625rem 0;
+    border-radius: 3px;
+    border-radius: 0.1875rem;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+}
+.img-file{
+  height: 512px;
+  width: 195px;
+}
+
 
