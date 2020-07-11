@@ -232,13 +232,9 @@ th{
   height: 512px;
   width: 195px;
 }
-.iconstyle {
- width: 25%;
- 
-}
-.img1{
-  width: 170px;
-  height: 50px;
+.menu-styte{
+  /* height: ; */
+  width: 100%;
 }
 
 .img3{

@@ -6,7 +6,8 @@ class Typography extends Component {
             <div className="container">
                 <strong className="strong-styte">Typography</strong>
                 <div>
-                    
+                    <h5>Project and web group 01:</h5>
+                    <hr/>
                     <h2 className="h1-tieude-styte">Header 2</h2>
                     <h3 className="my-4 text-justify">Header 3</h3>
                     <p className="card-text">This is a paragraph.</p>
