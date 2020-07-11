@@ -259,3 +259,60 @@ th{
   width: 300px;
   height: 170px;
 }
+.trTable {
+  text-align: center;
+  background-color: turquoise;
+}
+.img-design {
+  width: 100%;
+}
+.buttonStyle {
+  padding: 5px;
+  margin: 10px;
+}
+.bt1 {
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  color :#007BFF;
+  background: #fff;
+}
+.bt1:hover {
+  color: #fff;
+  background: #007BFF ;
+}
+.bt2 {
+  padding: 6px 12px;
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+  color: #ffffff;
+  background: #28B785;
+}
+.bt3 {
+  padding: 6px 12px;
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  color: #ffffff;
+  background: #28B785;
+}
+.bt3:hover {
+  background: #28B888;
+}
+.bt4{
+  padding: 6px 12px;
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  color: #ffffff;
+  background: #007BFF;
+}
+.bt5 {
+  background: #17A2BB;
+  
+  font-size: 20px;
+  width: 130px;
+  height: 74px;
+  border-radius: 20px;
+}

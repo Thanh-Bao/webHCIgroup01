@@ -8,6 +8,28 @@ class Layout extends Component {
             <div className="container">
               <div className="space-table">
             <h3 className="text-center"><b>{this.props.week}</b></h3>
+            <div>
+            <h1>Button</h1>
+            <div>
+                  <a
+                    href="https://group01-tintucbatdongsan.tk"
+                    target="_blank"
+                    style={{ "text-decoration": "none", fontWeight: "bold" }}
+                  >
+                    <div className="btnProject">
+                      <span>Project</span>
+                      <div className="dot"></div>
+                    </div>
+                  </a>
+                  <button className= "buttonStyle bt1">Login button</button>
+                  <button className= "buttonStyle bt2">Search button</button>
+                  <button className= "buttonStyle bt3">Large button</button>
+                  <button className= "buttonStyle bt4">Small </button>
+                  <button className= "buttonStyle bt5">Default button</button>
+
+                </div>
+            </div>
+            <h1>Table</h1>
             <div className="table-responsive space-week-table ">
             <table className="table table-bordered">
                 <thead>
@@ -63,6 +85,35 @@ class Layout extends Component {
           
           
         </div>  
+        <table className="table table-bordered">
+                <thead>
+                    <tr className="trTable">
+                       
+                        <th colspan="2"> thông tin của bạn </th>
+                        
+                    </tr>
+                </thead>
+            <tbody>
+                <tr>
+                        
+                        <td></td>
+                        <td></td>
+                </tr>
+                <tr>
+                        <td></td>
+                        <td></td>
+                </tr>
+                <tr>
+                        <td></td>
+                        <td></td>
+                </tr>
+                <tr>
+                        <td></td>
+                        <td></td>
+                </tr>
+            </tbody>
+
+            </table>
                
 
             </div>

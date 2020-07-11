@@ -23,6 +23,9 @@ class FileAndDirectory extends Component {
 
 
                 </div>
+                <h1>File Design</h1>
+                <img className="img-design" src="media/styteGuide/FileDesign1.jpg"></img>
+                <img className="img-design" src="media/styteGuide/FileDesign2.jpg"></img>
 
             </div>
         );

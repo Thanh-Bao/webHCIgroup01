@@ -36,7 +36,7 @@ class StyleGuide extends Component {
                
 
                 <a
-                  className="nav-item nav-link active  size-tabs-styte"
+                  className="nav-item nav-link   size-tabs-styte"
                   id="nav-profile-tab"
                   data-toggle="tab"
                   href="#typography"
@@ -47,7 +47,7 @@ class StyleGuide extends Component {
                   <b>Typography</b>
                 </a>
                 <a
-                  className="nav-item nav-link size-tabs-styte"
+                  className="nav-item nav-link active size-tabs-styte"
                   id="nav-home-tab"
                   data-toggle="tab"
                   href="#layout"
@@ -57,6 +57,7 @@ class StyleGuide extends Component {
                 >
                   <b>Table</b>
                 </a>
+                
 
                 <a
                   className="nav-item nav-link size-tabs-styte"
