@@ -55,7 +55,7 @@ class StyleGuide extends Component {
                   aria-controls="nav-home"
                   aria-selected="true"
                 >
-                  <b>Table</b>
+                  <b>Component</b>
                 </a>
                 
 
