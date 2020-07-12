@@ -151,7 +151,7 @@ class Result extends Component {
                             </li>
                             <li>
                               <a href="" target="_blank">
-                                <span> 7. Nút Search</span>
+                                <span> 7. Trang styte guide</span>
                               </a>
                             </li>
                           </ul>
