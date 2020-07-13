@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 class Result extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div>
@@ -120,7 +123,7 @@ class Result extends Component {
                             </li>
                             <li>
                               <a href="" target="_blank">
-                                <span> 3.Làm Register của phần login</span>
+                                <span> 3.Làm Register, Forgot password của phần login</span>
                               </a>
                             </li>
                             <li>

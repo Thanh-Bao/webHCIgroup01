@@ -3,14 +3,16 @@ import { TabList, Tabs, TabPanel } from "react-tabs";
 
 import Table from "../diary/Table";
 
-import Layout from "./Components-Styte-guide/Layout"
-import Typography from "./Components-Styte-guide/Typography"
+import Layout from "./Components-Styte-guide/Layout";
+import Typography from "./Components-Styte-guide/Typography";
 import ColorPalette from "./Components-Styte-guide/ColorPalette";
 import ImageStyte from "./Components-Styte-guide/ImageStyte";
-import FileAndDirectory from "./Components-Styte-guide/FileAndDirectory"
-
+import FileAndDirectory from "./Components-Styte-guide/FileAndDirectory";
 
 class StyleGuide extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div className="space-bottom">
@@ -33,8 +35,6 @@ class StyleGuide extends Component {
                 id="nav-tab"
                 role="tablist"
               >
-               
-
                 <a
                   className="nav-item nav-link   size-tabs-styte"
                   id="nav-profile-tab"
@@ -57,7 +57,6 @@ class StyleGuide extends Component {
                 >
                   <b>Component</b>
                 </a>
-                
 
                 <a
                   className="nav-item nav-link size-tabs-styte"
@@ -127,13 +126,10 @@ class StyleGuide extends Component {
                 <br />
                 <FileAndDirectory></FileAndDirectory>
               </div>
-
-
             </div>{" "}
           </div>
         </div>
       </div>
-
     );
   }
 }

@@ -3,6 +3,9 @@ import Table from "./Table";
 import Image from "./Image";
 
 class Diary extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div className="space-bottom">

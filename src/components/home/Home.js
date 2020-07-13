@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import "../../CSS/home.css";
 
 class Home extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div>
