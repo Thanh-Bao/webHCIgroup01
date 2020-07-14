@@ -257,7 +257,7 @@ class Result extends Component {
                       <div className="text-center mt-16">
                         <a
                           target="_blank"
-                          href=""
+                          href="https://tuanduongnlu.tk/#Result"
                           className="btn1 btn-primary2"
                         >
                           <i className="fa fa-star" /> Đánh giá cá nhân
