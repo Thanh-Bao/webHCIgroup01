@@ -171,7 +171,7 @@ class Result extends Component {
                       <div className="text-center mt-16">
                         <a
                           target="_blank"
-                          href=""
+                          href="https://hoquocnghianlu.tk/#resume"
                           className="btn1 btn-primary2 btn-sm"
                         >
                           <i className="fa fa-star" /> Đánh giá cá nhân
