@@ -233,10 +233,10 @@ class Result extends Component {
                             </li>
                             <li>
                               <a
-                                href="https://hci2020group01.tk/about"
+                                href="https://hci2020group01.tk/style-guide"
                                 target="_blank"
                               >
-                                <span> 6. Trang About</span>
+                                <span> 6. Trang Style Guide</span>
                               </a>
                             </li>
                             <li>
