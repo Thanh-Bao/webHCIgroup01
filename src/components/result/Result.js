@@ -336,7 +336,7 @@ class Result extends Component {
                       <div className="text-center mt-16">
                         <a
                           target="_blank"
-                          href=""
+                          href="https://cuongnguyennlu.tk/result"
                           className="btn1 btn-primary2"
                         >
                           <i className="fa fa-star" /> Đánh giá cá nhân
@@ -410,7 +410,7 @@ class Result extends Component {
                         </div>
                       </div>
                       <div className="text-center mt-16">
-                        <a target="_blank" href="">
+                        <a target="_blank" href="https://minhhuan.tk/Result">
                           <i className="fa fa-star" /> Đánh giá cá nhân
                         </a>
                       </div>
