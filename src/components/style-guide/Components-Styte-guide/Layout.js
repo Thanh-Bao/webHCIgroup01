@@ -22,8 +22,8 @@ class Layout extends Component {
                     </div>
                   </a>
                   <button className= "buttonStyle bt1">Login button</button>
-                  <button className= "buttonStyle bt2">Search button</button>
-                  <button className= "buttonStyle bt3">Large button</button>
+                  <button className= "buttonStyle bt2">Large button </button>
+                  <button className= "buttonStyle bt3"> Button</button>
                   <button className= "buttonStyle bt4">Small </button>
                   <button className= "buttonStyle bt5">Default button</button>
 
@@ -85,35 +85,7 @@ class Layout extends Component {
           
           
         </div>  
-        <table className="table table-bordered">
-                <thead>
-                    <tr className="trTable">
-                       
-                        <th colspan="2"> thông tin của bạn </th>
-                        
-                    </tr>
-                </thead>
-            <tbody>
-                <tr>
-                        
-                        <td></td>
-                        <td></td>
-                </tr>
-                <tr>
-                        <td></td>
-                        <td></td>
-                </tr>
-                <tr>
-                        <td></td>
-                        <td></td>
-                </tr>
-                <tr>
-                        <td></td>
-                        <td></td>
-                </tr>
-            </tbody>
-
-            </table>
+        
                
 
             </div>

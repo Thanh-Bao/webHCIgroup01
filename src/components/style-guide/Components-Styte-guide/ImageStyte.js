@@ -53,17 +53,17 @@ class Image extends Component {
 
                 </div>
                 <h1>Image</h1>
-                <h5>1.Logo</h5>
+                <h5>1. Logo</h5>
                 <img className="img1" src="media/styteGuide/100x30.PNG"></img>
-                <h5>2.baner</h5>
+                <h5>2. Baner</h5>
                 <img className="img2" src="media/styteGuide/Baner.PNG"></img>
-                <h5>3.Image of member</h5>
+                <h5>3. Image of member</h5>
                 <img className="img3" src="media/styteGuide/850x450.PNG"></img>
-                <h5>4.Image of member</h5>
+                <h5>4. Image of member</h5>
                 <img className="img4" src="media/styteGuide/150x150.PNG"></img>
-                <h5>5.Image of Result</h5>
+                <h5>5. Image of Result</h5>
                 <img className="img5" src="media/styteGuide/100x100.PNG"></img>
-                <h5>6.Image of title</h5>
+                <h5>6. Image of title</h5>
                 <img className="img6" src="media/styteGuide/300x170.PNG"></img>
             </div >
         );

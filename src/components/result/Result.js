@@ -30,7 +30,7 @@ class Result extends Component {
               </div>
               <div className="row">
                 <div className="col-md-6 col-lg-4">
-                  <div className="why-choose-us-content">
+                  <div className="why-choose-us-content  mb-80">
                     <div className="chosse-us-icon">
                       <img src="https://firebasestorage.googleapis.com/v0/b/tuanduongnlu.appspot.com/o/AvatarTranThanhBao.png?alt=media&token=ef58423f-30fc-4169-9591-fec279bb5c4f" />
                     </div>
@@ -42,17 +42,18 @@ class Result extends Component {
                           <ul className="task pl-2">
                             <li>
                               <a href="" target="_blank">
-                                <span> 1.Làm Trang Home </span>
+                                <span> 1. Làm Trang Home </span>
                               </a>
                             </li>
                             <li>
                               <span> 2. Xây dựng Router cho web </span>
                             </li>
                             <li>
-                              <span>3. Thêm plugin facebook, google</span>
+                            <span>3. Đăng kí domain và deploy project</span>
+                            
                             </li>
                             <li>
-                              <span>4. đăng kí domain và deploy project</span>
+                            <span>4. Thêm plugin facebook, google</span>
                             </li>
                           </ul>
                         </div>
@@ -113,22 +114,22 @@ class Result extends Component {
                           <ul className="task pl-2">
                             <li>
                               <a href="" target="_blank">
-                                <span> 1.Làm Trang About </span>
+                                <span> 1. Làm Trang About </span>
                               </a>
                             </li>
                             <li>
                               <a href="" target="_blank">
-                                <span> 2.Design trang more </span>
+                                <span> 2. Design trang more </span>
                               </a>
                             </li>
                             <li>
                               <a href="" target="_blank">
-                                <span> 3.Làm Register, Forgot password của phần login</span>
+                                <span> 3. Register, Forgot password của phần login</span>
                               </a>
                             </li>
                             <li>
                               <a href="" target="_blank">
-                                <span> 4.Làm chức năng comments </span>
+                                <span> 4. Làm chức năng comments </span>
                               </a>
                             </li>
                           </ul>
@@ -192,14 +193,14 @@ class Result extends Component {
                           <h4>Trang web Project</h4>
                           <ul className="task pl-2">
                             <li>
-                              <span>1.Test web</span>
+                              <span>1. Test web</span>
                             </li>
                             <li>
                               <a
                                 href="https://group01-tintucbatdongsan.tk/"
                                 target="_blank"
                               >
-                                <span> 2.Làm footer </span>
+                                <span> 2. Làm footer </span>
                               </a>
                             </li>
                             <li>
@@ -207,7 +208,7 @@ class Result extends Component {
                                 href="https://group01-tintucbatdongsan.tk/"
                                 target="_blank"
                               >
-                                <span> 3.Thêm blugin chuyển đổi ngôn ngữ </span>
+                                <span> 3. Thêm blugin translate </span>
                               </a>
                             </li>
                             <li>
@@ -215,7 +216,7 @@ class Result extends Component {
                                 href="https://group01-tintucbatdongsan.tk/more"
                                 target="_blank"
                               >
-                                <span> 4.Trang more </span>
+                                <span> 4. Trang more </span>
                               </a>
                             </li>
                           </ul>
@@ -285,17 +286,17 @@ class Result extends Component {
                                 href="https://hci2020group01.tk/home"
                                 target="_blank"
                               >
-                                <span> 1.Làm Trang Login </span>
+                                <span> 1. Làm Trang Login </span>
                               </a>
                             </li>
                             <li>
-                              <span> 2.Tìm content cho bài viết </span>
+                              <span> 2. Tìm content cho bài viết </span>
                             </li>
                             <li>
-                              <span>3.Design menu, làm layout menu </span>
+                              <span>3. Design menu, làm layout menu </span>
                             </li>
                             <li>
-                              <span> 4.Design hình ảnh bằng photoshop </span>
+                              <span> 4. Design hình ảnh </span>
                             </li>
                           </ul>
                         </div>
@@ -358,22 +359,22 @@ class Result extends Component {
                           <ul className="task pl-2">
                             <li>
                               <a href="" target="_blank">
-                                <span> 1.Tìm kiếm hình ảnh </span>
+                                <span> 1. Tìm kiếm hình ảnh </span>
                               </a>
                             </li>
                             <li>
                               <a href="" target="_blank">
-                                <span> 2.Sửa lỗi </span>
+                                <span> 2. Sửa lỗi </span>
                               </a>
                             </li>
                             <li>
                               <a href="" target="_blank">
-                                <span> 3.Nhập dữ liệu</span>
+                                <span> 3. Nhập dữ liệu</span>
                               </a>
                             </li>
                             <li>
                               <a href="" target="_blank">
-                                <span> 4.Tạo Search </span>
+                                <span> 4. Tạo Search </span>
                               </a>
                             </li>
                           </ul>
