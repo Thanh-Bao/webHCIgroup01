@@ -6,7 +6,7 @@ class NavigationBar extends Component {
 
 
 
-  
+
   render() {
     return (
       <div>
@@ -97,13 +97,25 @@ class NavigationBar extends Component {
                         </li>
                       </NavLink>
 
+                      <NavLink
+                        className="nav-link"
+                        to="/technology"
+                        activeClassName="current_content"
+                      >
+                        <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                          <span>
+                            <i class="fas fa-book"></i> Tech
+                          </span>
+                        </li>
+                      </NavLink>
+
                       {/* <form>
                         <input type="search" placeholder="Search" />
                       </form> */}
 
-                    
 
-                      
+
+
                     </ul>
                   </div>
                 </nav>

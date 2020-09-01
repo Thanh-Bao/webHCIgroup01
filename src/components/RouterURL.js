@@ -5,7 +5,7 @@ import Diary from "./diary/Diary.js";
 import About from "./about/About.js";
 import Result from "./result/Result.js";
 import StyleGuide from "./style-guide/StyleGuide.js";
-
+import Technology from "./technology/Technology.js";
 class RouterURL extends Component {
   render() {
     return (
@@ -16,6 +16,7 @@ class RouterURL extends Component {
         <Route exact path="/about" component={About} />
         <Route exact path="/result" component={Result} />
         <Route exact path="/style-guide" component={StyleGuide} />
+        <Route exact path="/technology" component={Technology} />
       </div>
     );
   }
