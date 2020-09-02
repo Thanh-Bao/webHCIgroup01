@@ -119,10 +119,10 @@ class Diary extends Component {
                   danhGiaDuong="9/10"
                   danhGiaNghia="8.8/10"
                   danhGiaHuan="9/10"
-                  week="TUẦN 1"
+                  week="Tuần 1"
                 ></Table>
                 <Image
-                  hinhanh="Hình Ảnh Tuần 1"
+                  hinhanh="Hình ảnh tuần 1"
                   image="media/diary/week1.jpg"
                 ></Image>
               </div>
@@ -150,10 +150,10 @@ class Diary extends Component {
                   danhGiaDuong="9.2/10"
                   danhGiaNghia="9.5/10"
                   danhGiaHuan="8.9/10"
-                  week="TUẦN 2"
+                  week="Tuần 2"
                 ></Table>
                 <Image
-                  hinhanh="Hình Ảnh Tuần 2"
+                  hinhanh="Hình ảnh tuần 2"
                   image="media/diary/week2.jpg"
                 ></Image>
               </div>
@@ -182,10 +182,10 @@ class Diary extends Component {
                   danhGiaNghia="9/10"
                   danhGiaHuan="9/10"
                   
-                  week="TUẦN 3"
+                  week="Tuần 3"
                 ></Table>
                 <Image
-                  hinhanh="Hình Ảnh Tuần 3"
+                  hinhanh="Hình ảnh tuần 3"
                   image="media/diary/week3.jpg"
                 ></Image>
               </div>
@@ -213,11 +213,11 @@ class Diary extends Component {
                   danhGiaDuong="9/10"
                   danhGiaNghia="9.1/10"
                   danhGiaHuan="9.2/10"
-                  week="TUẦN 4"
+                  week="Tuần 4"
                   
                 ></Table>
                 <Image
-                  hinhanh="Hình Ảnh Tuần 4"
+                  hinhanh="Hình ảnh tuần 4"
                   image="media/diary/week4.jpg"
                 ></Image>
               </div>
@@ -246,10 +246,10 @@ class Diary extends Component {
                   danhGiaDuong="9/10"
                   danhGiaNghia="9.2/10"
                   danhGiaHuan="9.7/10"
-                  week="TUẦN 5&6"
+                  week="Tuần 5&6"
                 ></Table>
                 <Image
-                  hinhanh="Hình Ảnh Tuần 5&6"
+                  hinhanh="Hình ảnh tuần 5&6"
                   image="media/diary/week5.jpg"
                 ></Image>
                 {/* <Image hinhanh="Hình Ảnh Tuần 5&6: Phân Công Về Nhà"></Image> */}
@@ -277,10 +277,10 @@ class Diary extends Component {
                   danhGiaDuong="9.5/10"
                   danhGiaNghia="9.6/10"
                   danhGiaHuan="9/10"
-                  week="TUẦN 7&8"
+                  week="Tuần 7&8"
                 ></Table>
                 <Image
-                  hinhanh="Hình Ảnh Tuần 7&8"
+                  hinhanh="Hình ảnh tuần 7&8"
                   image="media/diary/week7.jpg"
                 ></Image>
                 {/* <Image
