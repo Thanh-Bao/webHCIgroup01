@@ -124,7 +124,7 @@ class Result extends Component {
                             </li>
                             <li>
                               <a href="" target="_blank">
-                                <span> 3. Register, Forgot password của phần login</span>
+                                <span> 3. Register, Forgot password phần login</span>
                               </a>
                             </li>
                             <li>

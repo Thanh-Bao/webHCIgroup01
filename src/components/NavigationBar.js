@@ -92,7 +92,7 @@ class NavigationBar extends Component {
                       >
                         <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                           <span>
-                            <i class="fas fa-palette"></i> Styles
+                            <i class="fas fa-palette"></i> Style Guide
                           </span>
                         </li>
                       </NavLink>
@@ -104,10 +104,23 @@ class NavigationBar extends Component {
                       >
                         <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                           <span>
-                            <i class="fas fa-book"></i> Tech
+                            <i class="fas fa-book"></i> Technical
                           </span>
                         </li>
                       </NavLink>
+
+                      <a
+                        className="nav-link"
+                       href="https://group01-tintucbatdongsan.tk"
+                        activeClassName="current_content"
+                      >
+                        <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                          <span>
+                          <i class="fab fa-internet-explorer" ></i> Project
+                          </span>
+                        </li>
+                      </a>
+
 
                       {/* <form>
                         <input type="search" placeholder="Search" />

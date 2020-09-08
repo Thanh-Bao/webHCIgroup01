@@ -63,7 +63,7 @@
   .our-team .title {
     display: block;
     font-size: 15px;
-    color: #524e4f;
+    color: #000000;
     text-transform: capitalize;
   }
   
@@ -134,7 +134,7 @@
   
   .our-team{
     border: 0.15em solid;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.116);
     border-radius: 30px;
-    box-shadow: 10px 10px 16px 0 rgba(0, 0, 0, 0.527),1px 6px 20px 0 rgba(6, 255, 255, 0.979) ;
+  
   }
